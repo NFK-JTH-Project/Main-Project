@@ -1,4 +1,4 @@
-package com.example.nfk_project.ui.home
+package com.example.nfk_project.ui.Floor_2
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.nfk_project.R
 
-class HomeFragment : Fragment() {
+class Floor2Fragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var floor2ViewModel: Floor2ViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-            ViewModelProviders.of(this).get(HomeViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(this, Observer {
+        floor2ViewModel =
+            ViewModelProviders.of(this).get(Floor2ViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_floor_2, container, false)
+        val textView: TextView = root.findViewById(R.id.text_floor_2)
+        floor2ViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

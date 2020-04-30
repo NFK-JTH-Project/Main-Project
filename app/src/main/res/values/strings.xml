@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">NFK-Project</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">JU Navigation</string>
+    <string name="title_Floor_0">Floor 0</string>
+    <string name="title_Floor_1">Floor 1</string>
+    <string name="title_Floor_2">Floor 2</string>
+    <string name="Floor_0">Floor 0</string>
+    <string name="Floor_1">Floor 1</string>
+    <string name="Floor_2">Floor 2</string>
+    <string name="Floor_3">Floor 3</string>
+    <string name="Floor_4">Floor 4</string>
+
 </resources>

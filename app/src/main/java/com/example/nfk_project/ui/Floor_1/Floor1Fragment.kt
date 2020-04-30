@@ -1,4 +1,4 @@
-package com.example.nfk_project.ui.dashboard
+package com.example.nfk_project.ui.Floor_1
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.nfk_project.R
 
-class DashboardFragment : Fragment() {
+class Floor1Fragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var floor1ViewModel: Floor1ViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-            ViewModelProviders.of(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
-        val textView: TextView = root.findViewById(R.id.text_dashboard)
-        dashboardViewModel.text.observe(this, Observer {
+        floor1ViewModel =
+            ViewModelProviders.of(this).get(Floor1ViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_floor_1, container, false)
+        val textView: TextView = root.findViewById(R.id.text_floor_1)
+        floor1ViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root
