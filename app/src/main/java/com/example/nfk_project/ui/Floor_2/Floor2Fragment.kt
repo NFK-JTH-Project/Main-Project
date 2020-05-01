@@ -21,7 +21,7 @@ class Floor2Fragment : Fragment() {
     ): View? {
         floor2ViewModel =
             ViewModelProviders.of(this).get(Floor2ViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_floor_2, container, false)
+        val root = inflater.inflate(R.layout.floor2_fragment, container, false)
         val textView: TextView = root.findViewById(R.id.text_floor_2)
         floor2ViewModel.text.observe(this, Observer {
             textView.text = it
