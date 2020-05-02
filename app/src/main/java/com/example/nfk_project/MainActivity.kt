@@ -3,6 +3,8 @@ package com.example.nfk_project
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.widget.ArrayAdapter
+import android.widget.AutoCompleteTextView
 import android.widget.EditText
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -11,9 +13,14 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 
+import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var editTextSearch:EditText
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,21 +41,17 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        editTextSearch = findViewById(R.id.search_bar)
+        val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
 
-        editTextSearch.addTextChangedListener(object :TextWatcher{
-            override fun afterTextChanged(s: Editable?) {
-                TODO("Not yet implemented")
-            }
+        //Todo: Get strings from resources, Errors: cannot have spaces between words.
+        val suggestions = resources.getStringArray(R.array.suggestions)
 
-            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                TODO("Not yet implemented")
-            }
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, suggestions)
+            search_bar.setAdapter(adapter)
 
-            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-                TODO("Not yet implemented")
-            }
-        })
+
+
+
 
     }
 }
