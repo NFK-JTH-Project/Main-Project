@@ -6,8 +6,5 @@ import androidx.lifecycle.ViewModel
 
 class Floor2ViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is floor 2"
-    }
-    val text: LiveData<String> = _text
+
 }

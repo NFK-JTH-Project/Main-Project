@@ -9,23 +9,27 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.nfk_project.R
+import com.example.nfk_project.ui.floor_3.Floor3Fragment
+import com.example.nfk_project.ui.floor_3.Floor3ViewModel
 
 class Floor2Fragment : Fragment() {
 
-    private lateinit var floor2ViewModel: Floor2ViewModel
+    companion object {
+        fun newInstance() = Floor2Fragment()
+    }
+
+    private lateinit var viewModel: Floor2ViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        floor2ViewModel =
-            ViewModelProviders.of(this).get(Floor2ViewModel::class.java)
-        val root = inflater.inflate(R.layout.floor2_fragment, container, false)
-        val textView: TextView = root.findViewById(R.id.text_floor_2)
-        floor2ViewModel.text.observe(this, Observer {
-            textView.text = it
-        })
-        return root
+        return inflater.inflate(R.layout.floor2_fragment, container, false)
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        viewModel = ViewModelProviders.of(this).get(Floor2ViewModel::class.java)
+        // TODO: Use the ViewModel
     }
 }
