@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--android:parentActivityName=".MainActivity" allows for backtracking-->
+
+        <activity
+            android:name=".NavigationActivity"
+            android:parentActivityName=".MainActivity"
+            ></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
