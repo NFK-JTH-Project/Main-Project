@@ -21,5 +21,6 @@ class NavigationActivity : AppCompatActivity() {
             textView.setText("Navigation to "+ message)
         }
 
+        
     }
 }
