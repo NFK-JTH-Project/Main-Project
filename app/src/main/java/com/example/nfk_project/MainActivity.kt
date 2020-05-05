@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
             search_bar.setAdapter(adapter)
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
-        search_bar.onItemClickListener = AdapterView.OnItemClickListener{
-                parent,view,position,id->
+        search_bar.onItemClickListener = AdapterView.OnItemClickListener {
+                parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
             // Display the clicked item using toast
             Toast.makeText(applicationContext,"Selected : $selectedItem",Toast.LENGTH_SHORT).show()
@@ -59,7 +59,5 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("value", selectedItem)
             startActivity(intent)
         }
-
-
     }
 }
