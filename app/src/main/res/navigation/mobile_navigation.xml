@@ -9,24 +9,24 @@
     <fragment
         android:id="@+id/navigation_Floor_0"
         android:name="com.example.nfk_project.ui.floor_0.Floor0Fragment"
-        android:label="@string/title_Floor_0"
+        android:label="@string/title_Floor_1"
         tools:layout="@layout/floor0_fragment" />
 
     <fragment
         android:id="@+id/navigation_Floor_1"
         android:name="com.example.nfk_project.ui.Floor_1.Floor1Fragment"
-        android:label="@string/title_Floor_1"
+        android:label="@string/title_Floor_2"
         tools:layout="@layout/floor1_fragment" />
 
     <fragment
         android:id="@+id/navigation_Floor_2"
         android:name="com.example.nfk_project.ui.Floor_2.Floor2Fragment"
-        android:label="@string/title_Floor_2"
+        android:label="@string/title_Floor_3"
         tools:layout="@layout/floor2_fragment" />
     <fragment
         android:id="@+id/navigation_Floor_3"
         android:name="com.example.nfk_project.ui.floor_3.Floor3Fragment"
-        android:label="@string/title_Floor_3"
+        android:label="@string/title_Floor_4"
         tools:layout="@layout/floor3_fragment"
         />
 

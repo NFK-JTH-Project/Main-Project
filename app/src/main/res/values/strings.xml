@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">JU Navigation</string>
-    <string name="title_Floor_0">Floor 0</string>
     <string name="title_Floor_1">Floor 1</string>
     <string name="title_Floor_2">Floor 2</string>
     <string name="title_Floor_3">Floor 3</string>
-    <string name="Floor_0">Floor 0</string>
+    <string name="title_Floor_4">Floor 4</string>
     <string name="Floor_1">Floor 1</string>
     <string name="Floor_2">Floor 2</string>
     <string name="Floor_3">Floor 3</string>
     <string name="Floor_4">Floor 4</string>
+    <string name="Floor_5">Floor 5</string>
     <string name="search_title">Search</string>
-    <string name="search_hint">Search for Room, Teacher</string>
+    <string name="search_hint">Search for a room or teacher</string>
 
     <string-array name="suggestions">
         <item>E1020</item>
