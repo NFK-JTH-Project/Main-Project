@@ -18,7 +18,7 @@ class NavigationActivity : AppCompatActivity() {
         val bundle :Bundle ?=intent.extras
         if (bundle!=null){
             val message = bundle.getString("value")
-            textView.setText("Navigation to "+message)
+            textView.setText("Navigation to "+ message)
         }
 
     }

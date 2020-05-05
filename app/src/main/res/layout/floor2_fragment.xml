@@ -15,5 +15,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/floor2"/>
-
+  
 </androidx.constraintlayout.widget.ConstraintLayout>
