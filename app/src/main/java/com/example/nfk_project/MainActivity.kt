@@ -1,32 +1,23 @@
 package com.example.nfk_project
 
-import android.app.DownloadManager
 import android.content.Intent
-import android.media.Image
 import android.os.Bundle
-import android.system.Os.bind
-import android.text.Editable
-import android.text.TextWatcher
-import android.util.Base64.DEFAULT
-import android.util.Base64.encodeToString
-import android.util.Log
-import android.view.View
-import android.widget.*
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.AutoCompleteTextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-
-import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 import java.io.IOException
-import java.net.URL
 import java.util.*
-import kotlin.math.log
-import java.util.Base64
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -79,56 +70,50 @@ class MainActivity : AppCompatActivity() {
         }
 
         fetchJson()
+
     }
-
-
 
     fun fetchJson(){
 
         println("Attempting to Fetch JSON")
 
         val url = "https://api.ju.se/api/Staff/ajoa"
-        val password = "Km9Tacx9Dxae" + ":" + "TNDN15_Student"
+        val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
         val data = password.toByteArray(charset("UTF-8"))
-        val base64 = Base64.getEncoder().encodeToString(data)
+        val auth = Base64.getEncoder().encodeToString(data)
 
 
-        val request = Request.Builder().url(url).build()
-        request.headers.set("Authorization", base64)
+        //val request = Request.Builder().url(url).build()
+        //request.header("Authorization")
 
+        val client = OkHttpClient().newBuilder().build()
+        val request: Request = Request.Builder()
+            .url("https://api.ju.se/api/Staff/ajoa")
+            .method("GET", null)
+            .addHeader("Authorization", "Basic " + auth)
+            .build()
 
-        val client = OkHttpClient()
         client.newCall(request).enqueue(object: Callback {
             override fun onResponse(call: Call, response: Response) {
                 val body = response?.body?.string()
+                println("Body: " + body)
 
-
-                println(body)
-
-                val gson = GsonBuilder().create()
-
-                val homeFeed = gson.fromJson(body, HomeFeed::class.java)
-
-                println(homeFeed)
+                val gson = Gson()
+                val teacher = gson.fromJson(body, Teacher::class.java)
+                println("teacher " + teacher)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: " + e)
             }
         })
+
+
     }
 }
+//{"Signature":"Ajoa","Firstname":"Joakim","Lastname":"Andersson","Mobile":"","Mail":"joakim.andersson@ju.se","RoomName":"D1105","Photo":true}
 
-private operator fun Headers.set(s: String, value: String) {
+class Staff(val teachers: List<Teacher>)
 
+class Teacher(val signature: String, val firstname: String, val lastname: String, val mobile: String, val mail: String, val roomName: String, val photo: Boolean){
+    override fun toString() = signature + firstname + lastname + mobile + mail + roomName + photo
 }
-
-class Rooms(val roomNbr: String)
-
-
-
-class HomeFeed(val videos: List<Video>)
-
-class Video(val  id: Int, val name: String, val link: String, val imageUlr: String, val numberOfViews: Int, val channel: Channel)
-
-class Channel(val name: String, val profileImageUrl: String)
-
