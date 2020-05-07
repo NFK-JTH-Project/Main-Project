@@ -13,7 +13,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
-import com.google.gson.GsonBuilder
+import com.google.gson.JsonObject
+import com.google.gson.JsonParser
 import okhttp3.*
 import java.io.IOException
 import java.util.*
@@ -90,20 +91,39 @@ class MainActivity : AppCompatActivity() {
         val request: Request = Request.Builder()
             .url("https://api.ju.se/api/Staff/ajoa")
             .method("GET", null)
-            .addHeader("Authorization", "Basic " + auth)
+            .addHeader("Authorization", "Basic $auth")
             .build()
+
+
 
         client.newCall(request).enqueue(object: Callback {
             override fun onResponse(call: Call, response: Response) {
                 val body = response?.body?.string()
-                println("Body: " + body)
 
-                val gson = Gson()
-                val teacher = gson.fromJson(body, Teacher::class.java)
-                println("teacher " + teacher)
+                println("body $body")
+
+                val jsonObject: JsonObject = JsonParser().parse(body).asJsonObject
+
+                val signature = jsonObject.get("Signature").asString
+                val firstname = jsonObject.get("Firstname").asString
+                val lastname = jsonObject.get("Lastname").asString
+                val mobile = jsonObject.get("Mobile").asString
+                val mail = jsonObject.get("Mail").asString
+                val roomName = jsonObject.get("RoomName").asString
+                var photo = jsonObject.get("Photo").asBoolean
+
+
+                println("before")
+
+                val teacher = Teacher(signature, firstname, lastname, mobile, mail, roomName, photo)
+                println("after")
+                println("Teacher object: $teacher")
+
+
+
             }
             override fun onFailure(call: Call, e: IOException) {
-                println("request failed: " + e)
+                println("request failed: $e")
             }
         })
 
@@ -112,8 +132,34 @@ class MainActivity : AppCompatActivity() {
 }
 //{"Signature":"Ajoa","Firstname":"Joakim","Lastname":"Andersson","Mobile":"","Mail":"joakim.andersson@ju.se","RoomName":"D1105","Photo":true}
 
-class Staff(val teachers: List<Teacher>)
 
 class Teacher(val signature: String, val firstname: String, val lastname: String, val mobile: String, val mail: String, val roomName: String, val photo: Boolean){
-    override fun toString() = signature + firstname + lastname + mobile + mail + roomName + photo
+    override fun toString() = "$signature, $firstname, $lastname, $mobile, $mail, $roomName, $photo"
 }
+
+
+
+
+/*
+
+val gson = Gson()
+val teacher = gson.fromJson(body, Teacher::class.java)
+println("teacher: " + teacher
+
+val jsonObject: JsonObject = JsonParser().parse(body).asJsonObject
+println(jsonObject.get("Signature"))
+val signature = jsonObject.get("Signature").asString
+val firstname = jsonObject.get("Firstname").asString
+val lastname = jsonObject.get("Lastname").asString
+val mobile = jsonObject.get("Mobile").asString
+val mail = jsonObject.get("Mail").asString
+val roomName = jsonObject.get("roomName").asString
+var photo = false
+
+
+println("before")
+
+val teacher = Teacher(signature, firstname, lastname, mobile, mail, roomName, photo)
+println("after")
+println("Teacher object: $teacher")
+ */
