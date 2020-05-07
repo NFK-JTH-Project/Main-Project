@@ -5,10 +5,7 @@ import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.AutoCompleteTextView
-import android.widget.Toast
+import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
@@ -52,17 +49,20 @@ class MainActivity : AppCompatActivity() {
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
 
-        //todo: Make the userSearched dynamic with the searchinput for user!! "peter" should take search_bar.text.tostring() of some sort..
-        var suggestions = fetchStaffNameFromApi("peter")
+
+
+        //todo: Can only fetch 50 people
+        var suggestions = fetchStaffNameFromApi("all")
 
         //Tells the autocomplete to work from the users first letter, default is 2 letters.
-        search_bar.threshold = 1
+        search_bar.threshold = 2
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
 
         search_bar.setAdapter(adapter)
 
         search_bar.setOnDismissListener {print("onDissmiss")}
+
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
@@ -83,12 +83,28 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
+        this.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
+
+            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
+
+            override fun afterTextChanged(editable: Editable?) {
+                afterTextChanged.invoke(editable.toString())
+            }
+        })
+    }
+
+
 //Returns name of staff beggining with string userSearched
     fun fetchStaffNameFromApi(userSearched: String): List<String>{
 
         println("Attempting to Fetch JSON")
 
         var list: MutableList<String> = ArrayList()
+
 
         val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
         val data = password.toByteArray(charset("UTF-8"))
@@ -118,7 +134,12 @@ class MainActivity : AppCompatActivity() {
                 var teachers = gson.fromJson<ArrayList<Teacher>>(body, listTeacherType)
 
                 //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
-                teachers.forEach { list.add(it.Firstname + " " + it.Lastname)}
+                teachers.forEach {
+                    list.add(it.Firstname + " " + it.Lastname)
+
+                }
+
+
                 println("Inside request: " + list)
 
             }
@@ -137,6 +158,11 @@ class MainActivity : AppCompatActivity() {
 //{"Signature":"Ajoa","Firstname":"Joakim","Lastname":"Andersson","Mobile":"","Mail":"joakim.andersson@ju.se","RoomName":"D1105","Photo":true}
 
 class Staff(val teacher: List<Teacher>)
+
+class room(
+    val Name: String,
+    val RoomName: String
+)
 
 class Teacher(
     val Signature: String,
