@@ -1,12 +1,10 @@
 package com.example.nfk_project
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.*
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
 import androidx.navigation.findNavController
@@ -15,8 +13,6 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
-import com.google.gson.JsonObject
-import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import okhttp3.*
 import java.io.IOException
@@ -51,17 +47,17 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        //todo: Can only fetch 50 people
-        var suggestions = fetchStaffNameFromApi("all")
+        //todo: Can only fetch 42
+        var suggestions = fetchStaffFromApi()
 
-        //Tells the autocomplete to work from the users first letter, default is 2 letters.
+
+        //Tells the autocomplete to work from the users first letter
         search_bar.threshold = 2
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
-
         search_bar.setAdapter(adapter)
-
         search_bar.setOnDismissListener {print("onDissmiss")}
+
 
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
@@ -69,7 +65,8 @@ class MainActivity : AppCompatActivity() {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
 
-
+            //todo: selectedItem should retrive roomnbr
+            val roomNumber: String = "function"
 
             // Display the clicked item using toast
             Toast.makeText(applicationContext,"Selected : $selectedItem",Toast.LENGTH_SHORT).show()
@@ -83,47 +80,40 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
-        this.addTextChangedListener(object : TextWatcher {
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-            }
-
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-            }
-
-            override fun afterTextChanged(editable: Editable?) {
-                afterTextChanged.invoke(editable.toString())
-            }
-        })
-    }
-
-
 //Returns name of staff beggining with string userSearched
-    fun fetchStaffNameFromApi(userSearched: String): List<String>{
+    fun fetchStaffFromApi(): MutableList<String> {
+
+        //todo: Error handling for requests other than 200 OK
 
         println("Attempting to Fetch JSON")
 
         var list: MutableList<String> = ArrayList()
 
-
+        //setting Authentication for API
         val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
         val data = password.toByteArray(charset("UTF-8"))
         val auth = Base64.getEncoder().encodeToString(data)
 
 
-        //val request = Request.Builder().url(url).build()
-        //request.header("Authorization")
-
+        //creating client
         val client = OkHttpClient().newBuilder().build()
-        val request: Request = Request.Builder()
-            .url("https://api.ju.se/api/Staff?filter=$userSearched")
+
+        //Creating request to retrive all Staff from API
+        val requestTeacher: Request = Request.Builder()
+            .url("https://api.ju.se/api/Staff?filter=")
             .method("GET", null)
             .addHeader("Authorization", "Basic $auth")
             .build()
 
+        //Creating request to retrive all Rooms from API
+        val requestRooms: Request = Request.Builder()
+            .url("https://api.ju.se/api/Room/Search?name=")
+            .method("GET", null)
+            .addHeader("Authorization", "Basic $auth")
+            .build()
 
-
-        client.newCall(request).enqueue(object: Callback {
+        //Handle response from retrieving all Staff, adding Staff by name to string array.
+        client.newCall(requestTeacher).enqueue(object: Callback {
             override fun onResponse(call: Call, response: Response) {
                 val body = response?.body?.string()
 
@@ -139,8 +129,29 @@ class MainActivity : AppCompatActivity() {
 
                 }
 
+            }
+            override fun onFailure(call: Call, e: IOException) {
+                println("request failed: $e")
 
-                println("Inside request: " + list)
+            }
+
+        })
+        //Handle response from retrieving all Rooms, adding Room by name to string array.
+        client.newCall(requestRooms).enqueue(object: Callback {
+            override fun onResponse(call: Call, response: Response) {
+                val body = response?.body?.string()
+
+                println("body $body")
+
+                val gson = Gson()
+                val listRoomType = object : TypeToken<ArrayList<Room>>() {}.type
+                var rooms = gson.fromJson<ArrayList<Room>>(body, listRoomType)
+
+                //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
+                rooms.forEach {
+                    list.add(it.Name)
+
+                }
 
             }
             override fun onFailure(call: Call, e: IOException) {
@@ -151,6 +162,7 @@ class MainActivity : AppCompatActivity() {
         })
         return list
 
+    //sökning mot servern
 
 
     }
@@ -159,9 +171,11 @@ class MainActivity : AppCompatActivity() {
 
 class Staff(val teacher: List<Teacher>)
 
-class room(
+class Room(
     val Name: String,
-    val RoomName: String
+    val Description: String,
+    val More: String,
+    val Types: String
 )
 
 class Teacher(
