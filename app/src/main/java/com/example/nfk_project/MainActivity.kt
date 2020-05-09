@@ -17,6 +17,8 @@ import com.google.gson.reflect.TypeToken
 import okhttp3.*
 import java.io.IOException
 import java.util.*
+import kotlin.collections.ArrayList
+import java.util.TreeMap as TreeMap
 
 
 class MainActivity : AppCompatActivity() {
@@ -44,21 +46,15 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
+        val suggestions = fetchStaffFromApi()
 
 
-
-        //todo: Can only fetch 42
-        var suggestions = fetchStaffFromApi()
-
-
-        //Tells the autocomplete to work from the users first letter
+        //Tells the autocomplete to give suggestions when the user enters the second letter
         search_bar.threshold = 2
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
         search_bar.setOnDismissListener {print("onDissmiss")}
-
-
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
@@ -75,9 +71,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("value", selectedItem)
             startActivity(intent)
         }
-
-
-
     }
 
 //Returns name of staff beggining with string userSearched
@@ -88,6 +81,8 @@ class MainActivity : AppCompatActivity() {
         println("Attempting to Fetch JSON")
 
         var list: MutableList<String> = ArrayList()
+        var nameToRoomnbr = TreeMap<String, String>()
+
 
         //setting Authentication for API
         val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
@@ -126,7 +121,7 @@ class MainActivity : AppCompatActivity() {
                 //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
                 teachers.forEach {
                     list.add(it.Firstname + " " + it.Lastname)
-
+                    nameToRoomnbr[it.Firstname + " " + it.Lastname] = it.RoomName
                 }
 
             }
@@ -150,7 +145,7 @@ class MainActivity : AppCompatActivity() {
                 //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
                 rooms.forEach {
                     list.add(it.Name)
-
+                    nameToRoomnbr[it.Name] = it.Name
                 }
 
             }
@@ -160,17 +155,12 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
         return list
-
-    //sökning mot servern
-
-
     }
 }
+
 //{"Signature":"Ajoa","Firstname":"Joakim","Lastname":"Andersson","Mobile":"","Mail":"joakim.andersson@ju.se","RoomName":"D1105","Photo":true}
-
-class Staff(val teacher: List<Teacher>)
-
 class Room(
     val Name: String,
     val Description: String,
