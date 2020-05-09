@@ -23,13 +23,12 @@ import java.util.TreeMap as TreeMap
 
 class MainActivity : AppCompatActivity() {
 
-
+    var nameToRoomnbr = TreeMap<String, String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
@@ -61,16 +60,16 @@ class MainActivity : AppCompatActivity() {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
 
-            //todo: selectedItem should retrive roomnbr
-            val roomNumber: String = "function"
-
+            val selectedRoom = nameToRoomnbr.get(selectedItem)
+            println(selectedRoom)
             // Display the clicked item using toast
             Toast.makeText(applicationContext,"Selected : $selectedItem",Toast.LENGTH_SHORT).show()
             //todo take user to correct navigation activity, room/person is stored in selectedItem
             val intent = Intent(this, NavigationActivity::class.java)
-            intent.putExtra("value", selectedItem)
+            intent.putExtra("value", selectedRoom)
             startActivity(intent)
         }
+
     }
 
 //Returns name of staff beggining with string userSearched
@@ -81,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         println("Attempting to Fetch JSON")
 
         var list: MutableList<String> = ArrayList()
-        var nameToRoomnbr = TreeMap<String, String>()
+
 
 
         //setting Authentication for API
@@ -145,7 +144,7 @@ class MainActivity : AppCompatActivity() {
                 //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
                 rooms.forEach {
                     list.add(it.Name)
-                    nameToRoomnbr[it.Name] = it.Name
+                    this@MainActivity.nameToRoomnbr[it.Name] = it.Name
                 }
 
             }
