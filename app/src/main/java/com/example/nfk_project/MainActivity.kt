@@ -22,8 +22,7 @@ import java.util.TreeMap as TreeMap
 
 
 class MainActivity : AppCompatActivity() {
-
-    var nameToRoomnbr = TreeMap<String, String>()
+    var api: API = API()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,8 +44,7 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
-        val suggestions = fetchStaffFromApi()
-
+        val suggestions = api.fetchStaffFromApi()
 
         //Tells the autocomplete to give suggestions when the user enters the second letter
         search_bar.threshold = 2
@@ -60,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
 
-            val selectedRoom = nameToRoomnbr.get(selectedItem)
+            val selectedRoom = api.searchItems.get(selectedItem)
             println(selectedRoom)
             // Display the clicked item using toast
             Toast.makeText(applicationContext,"Selected : $selectedItem",Toast.LENGTH_SHORT).show()
@@ -69,159 +67,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("value", selectedRoom)
             startActivity(intent)
         }
-
-    }
-
-//Returns name of staff beggining with string userSearched
-    fun fetchStaffFromApi(): MutableList<String> {
-
-        //todo: Error handling for requests other than 200 OK
-
-        println("Attempting to Fetch JSON")
-
-        var list: MutableList<String> = ArrayList()
-
-
-
-        //setting Authentication for API
-        val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
-        val data = password.toByteArray(charset("UTF-8"))
-        val auth = Base64.getEncoder().encodeToString(data)
-
-
-        //creating client
-        val client = OkHttpClient().newBuilder().build()
-
-        //Creating request to retrive all Staff from API
-        val requestTeacher: Request = Request.Builder()
-            .url("https://api.ju.se/api/Staff?filter=")
-            .method("GET", null)
-            .addHeader("Authorization", "Basic $auth")
-            .build()
-
-        //Creating request to retrive all Rooms from API
-        val requestRooms: Request = Request.Builder()
-            .url("https://api.ju.se/api/Room/Search?name=")
-            .method("GET", null)
-            .addHeader("Authorization", "Basic $auth")
-            .build()
-
-        //Handle response from retrieving all Staff, adding Staff by name to string array.
-        client.newCall(requestTeacher).enqueue(object: Callback {
-            override fun onResponse(call: Call, response: Response) {
-                val body = response?.body?.string()
-
-                println("body $body")
-
-                val gson = Gson()
-                val listTeacherType = object : TypeToken<ArrayList<Teacher>>() {}.type
-                var teachers = gson.fromJson<ArrayList<Teacher>>(body, listTeacherType)
-
-                //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
-                teachers.forEach {
-                    list.add(it.Firstname + " " + it.Lastname)
-                    nameToRoomnbr[it.Firstname + " " + it.Lastname] = it.RoomName
-                }
-
-            }
-            override fun onFailure(call: Call, e: IOException) {
-                println("request failed: $e")
-
-            }
-
-        })
-        //Handle response from retrieving all Rooms, adding Room by name to string array.
-        client.newCall(requestRooms).enqueue(object: Callback {
-            override fun onResponse(call: Call, response: Response) {
-                val body = response?.body?.string()
-
-                println("body $body")
-
-                val gson = Gson()
-                val listRoomType = object : TypeToken<ArrayList<Room>>() {}.type
-                var rooms = gson.fromJson<ArrayList<Room>>(body, listRoomType)
-
-                //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
-                rooms.forEach {
-                    list.add(it.Name)
-                    this@MainActivity.nameToRoomnbr[it.Name] = it.Name
-                }
-
-            }
-            override fun onFailure(call: Call, e: IOException) {
-                println("request failed: $e")
-
-            }
-
-        })
-
-        return list
     }
 }
 
-//{"Signature":"Ajoa","Firstname":"Joakim","Lastname":"Andersson","Mobile":"","Mail":"joakim.andersson@ju.se","RoomName":"D1105","Photo":true}
-class Room(
-    val Name: String,
-    val Description: String,
-    val More: String,
-    val Types: String
-)
 
-class Teacher(
-    val Signature: String,
-    val Firstname: String,
-    val Lastname: String,
-    val Mobile: String,
-    val Mail: String,
-    val RoomName: String,
-    val Photo: Boolean
-)
-{
-
-    override fun toString() = "$Signature, $Firstname, $Lastname, $Mobile, $Mail, $RoomName, $Photo"
-}
-
-
-
-
-/*
-
-val gson = Gson()
-val teacher = gson.fromJson(body, Teacher::class.java)
-println("teacher: " + teacher
-
-val jsonObject: JsonObject = JsonParser().parse(body).asJsonObject
-println(jsonObject.get("Signature"))
-val signature = jsonObject.get("Signature").asString
-val firstname = jsonObject.get("Firstname").asString
-val lastname = jsonObject.get("Lastname").asString
-val mobile = jsonObject.get("Mobile").asString
-val mail = jsonObject.get("Mail").asString
-val roomName = jsonObject.get("roomName").asString
-var photo = false
-
-
-println("before")
-
-val teacher = Teacher(signature, firstname, lastname, mobile, mail, roomName, photo)
-println("after")
-println("Teacher object: $teacher")
-
-
-val jsonObject: JsonObject = JsonParser().parse(body).asJsonObject
-
-                val signature = jsonObject.get("Signature").asString
-                val firstname = jsonObject.get("Firstname").asString
-                val lastname = jsonObject.get("Lastname").asString
-                val mobile = jsonObject.get("Mobile").asString
-                val mail = jsonObject.get("Mail").asString
-                val roomName = jsonObject.get("RoomName").asString
-                var photo = jsonObject.get("Photo").asBoolean
-
-
-                println("before")
-
-                val teacher = Teacher(signature, firstname, lastname, mobile, mail, roomName, photo)
-                println("after")
-                println("Teacher object: $teacher")
- */

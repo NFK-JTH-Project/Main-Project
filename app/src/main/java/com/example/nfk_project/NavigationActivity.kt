@@ -17,12 +17,12 @@ class NavigationActivity : AppCompatActivity() {
 
         val bundle :Bundle ?=intent.extras
         if (bundle!=null){
-            val message = bundle.getString("value")
-            if (message != null) {
-                if(message.isEmpty()){
+            val roomNbr = bundle.getString("value")
+            if (roomNbr != null) {
+                if(roomNbr.isEmpty()){
                     textView.setText("No Room found")
                 }else{
-                    textView.setText("Navigation to "+ message)
+                    textView.setText("Navigation to "+ roomNbr)
                 }
             }
 
