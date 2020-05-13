@@ -1,10 +1,12 @@
 package com.example.nfk_project
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.*
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
 import androidx.navigation.findNavController
@@ -24,6 +26,7 @@ import java.util.TreeMap as TreeMap
 class MainActivity : AppCompatActivity() {
     var api: API = API()
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
