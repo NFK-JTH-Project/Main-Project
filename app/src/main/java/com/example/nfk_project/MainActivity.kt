@@ -3,6 +3,7 @@ package com.example.nfk_project
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.os.Parcelable
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.*
@@ -54,23 +55,28 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
-        search_bar.setOnDismissListener {print("onDissmiss")}
+
+
+
+
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
-
             val selectedRoom = api.searchItems.get(selectedItem)
-            println(selectedRoom)
-            // Display the clicked item using toast
-            Toast.makeText(applicationContext,"Selected : $selectedItem",Toast.LENGTH_SHORT).show()
-            //todo take user to correct navigation activity, room/person is stored in selectedItem
             val intent = Intent(this, NavigationActivity::class.java)
             intent.putExtra("value", selectedRoom)
+            intent.putExtra("teacher", api.allTeachers.get(selectedItem))
             startActivity(intent)
         }
+
+        //only for testing..
+        //api.requestPhoto("LarPet")
     }
 }
+
+
+
 
 
