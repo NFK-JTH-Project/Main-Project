@@ -3,13 +3,10 @@ package com.example.nfk_project
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Build
-import android.widget.ImageView
 import androidx.annotation.RequiresApi
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.floor0_fragment.view.*
 import okhttp3.*
-import okio.ByteString
 import java.io.IOException
 import java.util.*
 
@@ -98,28 +95,26 @@ class API {
         return list
     }
 
+    //Return photo of teacher by signature
     fun requestPhoto(signature :String){
-
-
-        //creating client
         val client = OkHttpClient().newBuilder().build()
+
+
         val requestRooms: Request = Request.Builder()
-            .url("https://api.ju.se/api/Staff/$signature/Photo?height=52")
+            .url("https://api.ju.se/api/Staff/$signature/Photo?height=")
             .method("GET", null)
             .addHeader("Authorization", "Basic $auth")
             .build()
 
         client.newCall(requestRooms).enqueue(object: Callback {
-            override fun onResponse(call: Call, response: Response) {
-               //todo: Parse PNG and return it.
+            override fun onResponse(call: Call, response: Response){
+                val bitmap = BitmapFactory.decodeStream(response.body?.byteStream())
 
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
-
             }
         })
 
     }
 }
-

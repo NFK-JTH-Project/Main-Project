@@ -70,9 +70,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("teacher", api.allTeachers.get(selectedItem))
             startActivity(intent)
         }
-
-        //only for testing..
-        //api.requestPhoto("LarPet")
     }
 }
 

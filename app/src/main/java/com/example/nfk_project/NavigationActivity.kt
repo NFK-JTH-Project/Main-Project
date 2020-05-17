@@ -1,10 +1,18 @@
 package com.example.nfk_project
 
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_navigation.*
+import kotlinx.android.synthetic.main.floor0_fragment.*
+import okhttp3.*
+import java.io.IOException
+
+
 
 class NavigationActivity : AppCompatActivity() {
     var api: API = API()
@@ -13,7 +21,7 @@ class NavigationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_navigation)
 
         val textView = findViewById<TextView>(R.id.textView)
-        val imageView = findViewById<ImageView>(R.id.photo)
+
 
 
 
@@ -25,7 +33,7 @@ class NavigationActivity : AppCompatActivity() {
 
 
             if(teacher.Photo){
-                println("Photo Exisist")
+                requestPhoto(teacher.Signature)
 
             }
             else{
@@ -39,8 +47,28 @@ class NavigationActivity : AppCompatActivity() {
                 }
             }
         }
+    }
 
+    //todo Move this function to API
+    fun requestPhoto(signature :String){
+        val client = OkHttpClient().newBuilder().build()
+
+
+        val requestRooms: Request = Request.Builder()
+            .url("https://api.ju.se/api/Staff/$signature/Photo?height=")
+            .method("GET", null)
+            .addHeader("Authorization", "Basic ${api.auth}")
+            .build()
+
+        client.newCall(requestRooms).enqueue(object: Callback {
+            override fun onResponse(call: Call, response: Response){
+                runOnUiThread(){
+                    photo.setImageBitmap(BitmapFactory.decodeStream(response.body?.byteStream()))
+                }
+            }
+            override fun onFailure(call: Call, e: IOException) {
+                println("request failed: $e")
+            }
+        })
     }
 }
-
-
