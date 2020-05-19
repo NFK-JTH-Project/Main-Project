@@ -62,8 +62,9 @@ class API {
                     list.add(it.Firstname + " " + it.Lastname)
                     searchItems[it.Firstname + " " + it.Lastname] = it.RoomName
                     allTeachers[it.Firstname + " " + it.Lastname] = it
-
                 }
+
+                println("teachers" + list.size)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
@@ -85,6 +86,7 @@ class API {
                     searchItems[it.Name] = it.Name
                     allRooms[it.Name] = it
                 }
+                println("rooms" + list.size)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
@@ -92,14 +94,14 @@ class API {
         })
 
         //This returns a list of strings containing all teachers name + lastname and all room numbers in Jönköping University.
+        println("outside"+list.size)
         return list
     }
 
     //Return photo of teacher by signature
-    fun requestPhoto(signature :String){
+    fun requestPhoto(signature:String, callback: (photo : Bitmap?) -> Unit){
+
         val client = OkHttpClient().newBuilder().build()
-
-
         val requestRooms: Request = Request.Builder()
             .url("https://api.ju.se/api/Staff/$signature/Photo?height=")
             .method("GET", null)
@@ -109,10 +111,11 @@ class API {
         client.newCall(requestRooms).enqueue(object: Callback {
             override fun onResponse(call: Call, response: Response){
                 val bitmap = BitmapFactory.decodeStream(response.body?.byteStream())
-
+                callback.invoke(bitmap)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
+                callback.invoke(null)
             }
         })
 

@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
     var api: API = API()
 
     @RequiresApi(Build.VERSION_CODES.O)
+    val suggestions = api.fetchStaffFromApi()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -48,17 +50,13 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
-        val suggestions = api.fetchStaffFromApi()
 
+        println("sugg: "+ suggestions)
         //Tells the autocomplete to give suggestions when the user enters the second letter
         search_bar.threshold = 2
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
-
-
-
-
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {

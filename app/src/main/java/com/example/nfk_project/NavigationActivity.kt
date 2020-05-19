@@ -1,21 +1,20 @@
 package com.example.nfk_project
 
+import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_navigation.*
-import kotlinx.android.synthetic.main.floor0_fragment.*
 import okhttp3.*
 import java.io.IOException
-
+import java.lang.Error
 
 
 class NavigationActivity : AppCompatActivity() {
     var api: API = API()
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
@@ -33,7 +32,11 @@ class NavigationActivity : AppCompatActivity() {
 
 
             if(teacher.Photo){
-                requestPhoto(teacher.Signature)
+                api.requestPhoto(teacher.Signature, fun (response : Bitmap?){
+                    runOnUiThread(){
+                        photo.setImageBitmap(response)
+                    }
+                })
 
             }
             else{
@@ -41,34 +44,12 @@ class NavigationActivity : AppCompatActivity() {
             }
             if (roomNbr != null) {
                 if(roomNbr.isEmpty()){
-                    textView.setText("No Room found")
+                    textView.text = "No Room found"
                 }else{
-                    textView.setText("Navigation to "+ roomNbr)
+                    textView.text = "Navigation to $roomNbr"
                 }
             }
         }
     }
 
-    //todo Move this function to API
-    fun requestPhoto(signature :String){
-        val client = OkHttpClient().newBuilder().build()
-
-
-        val requestRooms: Request = Request.Builder()
-            .url("https://api.ju.se/api/Staff/$signature/Photo?height=")
-            .method("GET", null)
-            .addHeader("Authorization", "Basic ${api.auth}")
-            .build()
-
-        client.newCall(requestRooms).enqueue(object: Callback {
-            override fun onResponse(call: Call, response: Response){
-                runOnUiThread(){
-                    photo.setImageBitmap(BitmapFactory.decodeStream(response.body?.byteStream()))
-                }
-            }
-            override fun onFailure(call: Call, e: IOException) {
-                println("request failed: $e")
-            }
-        })
-    }
 }
