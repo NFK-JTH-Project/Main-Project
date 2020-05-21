@@ -10,4 +10,9 @@ class Teacher(
     val Mail: String,
     val RoomName: String,
     val Photo: Boolean
-): Serializable
+): Serializable{
+    override fun toString(): String {
+        var s = "Name: $Firstname $Lastname"
+        return s
+    }
+}

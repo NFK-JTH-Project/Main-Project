@@ -5,4 +5,9 @@ class Room(
     val Description: String,
     val More: String,
     val Types: String
-): Serializable
+
+): Serializable{
+    override fun toString(): String {
+        return this.Name
+    }
+}

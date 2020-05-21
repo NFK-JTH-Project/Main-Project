@@ -10,7 +10,6 @@
         android:id="@+id/photo"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        android:src="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

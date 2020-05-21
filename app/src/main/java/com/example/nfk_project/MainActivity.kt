@@ -1,5 +1,7 @@
 package com.example.nfk_project
 
+import Graph
+import NodeData
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -17,7 +19,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import mDictionary
 import okhttp3.*
+import rNode
 import java.io.IOException
 import java.util.*
 import kotlin.collections.ArrayList
@@ -28,11 +32,12 @@ class MainActivity : AppCompatActivity() {
     var api: API = API()
     @RequiresApi(Build.VERSION_CODES.O)
     var suggestions = api.fetchStaffFromApi()
+    var graph = initGraph()
+    var dictionary = mDictionary()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_main)
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
@@ -65,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             val selectedRoom = api.searchItems[selectedItem]
 
             val intent = Intent(this, NavigationActivity::class.java)
+            intent.putExtra("graph", graph)
 
             if(api.allRooms.containsKey(selectedItem)){
                 intent.putExtra("room", api.allRooms[selectedItem])
@@ -73,6 +79,42 @@ class MainActivity : AppCompatActivity() {
             }
             startActivity(intent)
         }
+    }
+
+    fun initGraph(): Graph{
+        var data: NodeData = NodeData()
+        var graph: Graph = Graph()
+        var directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
+        var positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
+        var connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
+        for(node in directionNodes){
+            var nodeName = node.split(";").get(0)
+            var nodeDirs: String = node.split(";").get(1)
+            var newNode = rNode(nodeName, nodeDirs)
+            graph.addRoom(newNode)
+        }
+        for(connection in connections){
+            var names = connection.split(" ")
+            for(i in 1 until names.size){
+                var root = graph.getRoom(names.get(0))
+                var neighbor = graph.getRoom(names.get(i))
+                if(root!=null && neighbor != null){
+                    graph.setConnectionBetweenRooms(root, neighbor)
+                }
+            }
+        }
+        for(node in positionNodes){
+            var vals = node.split(";")
+            var parentName = vals.get(0)
+            var childName = vals.get(1)
+            var position = vals.get(2)
+            var newRoom = rNode(childName, position)
+            var parentRoom = graph.getRoom(parentName)
+            graph.addRoom(newRoom)
+            if(parentRoom != null)
+                graph.setConnectionBetweenRooms(parentRoom, newRoom)
+        }
+        return graph
     }
 
 }

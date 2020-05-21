@@ -86,7 +86,6 @@ class API {
                     searchItems[it.Name] = it.Name
                     allRooms[it.Name] = it
                 }
-                println("rooms" + list.size)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
@@ -94,7 +93,6 @@ class API {
         })
 
         //This returns a list of strings containing all teachers name + lastname and all room numbers in Jönköping University.
-        println("outside"+list.size)
         return list
     }
 
