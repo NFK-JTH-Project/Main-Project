@@ -26,9 +26,9 @@ import java.util.TreeMap as TreeMap
 
 class MainActivity : AppCompatActivity() {
     var api: API = API()
-
     @RequiresApi(Build.VERSION_CODES.O)
-    val suggestions = api.fetchStaffFromApi()
+    var suggestions = api.fetchStaffFromApi()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,24 +51,30 @@ class MainActivity : AppCompatActivity() {
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
 
-        println("sugg: "+ suggestions)
         //Tells the autocomplete to give suggestions when the user enters the second letter
         search_bar.threshold = 2
-
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
+
+
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
-            val selectedRoom = api.searchItems.get(selectedItem)
+            val selectedRoom = api.searchItems[selectedItem]
+
             val intent = Intent(this, NavigationActivity::class.java)
-            intent.putExtra("value", selectedRoom)
-            intent.putExtra("teacher", api.allTeachers.get(selectedItem))
+
+            if(api.allRooms.containsKey(selectedItem)){
+                intent.putExtra("room", api.allRooms[selectedItem])
+            }else{
+                intent.putExtra("teacher", api.allTeachers[selectedItem])
+            }
             startActivity(intent)
         }
     }
+
 }
 
 

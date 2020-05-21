@@ -19,10 +19,13 @@ class NavigationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
 
-        val textView = findViewById<TextView>(R.id.textView)
 
+    }
 
+}
 
+/*
+* val textView = findViewById<TextView>(R.id.textView)
 
         val bundle :Bundle ?=intent.extras
         if (bundle!=null){
@@ -37,19 +40,15 @@ class NavigationActivity : AppCompatActivity() {
                         photo.setImageBitmap(response)
                     }
                 })
-
             }
             else{
                 println("NO PHOTO")
             }
             if (roomNbr != null) {
                 if(roomNbr.isEmpty()){
-                    textView.text = "No Room found"
+                    textView.text = "No Room found for $teacher"
                 }else{
-                    textView.text = "Navigation to $roomNbr"
+                    textView.text = "${teacher.Firstname}\nNavigation to $roomNbr"
                 }
             }
-        }
-    }
-
-}
+        }*/

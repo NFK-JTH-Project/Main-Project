@@ -21,6 +21,8 @@ class API {
 
     var list: MutableList<String> = ArrayList()
 
+    var nameOfTeachers: MutableList<String> = ArrayList()
+
     //setting Authentication for API
     val password = "TNDN15_Student" + ":" + "Km9Tacx9Dxae"
     val data = password.toByteArray(charset("UTF-8"))
@@ -63,8 +65,6 @@ class API {
                     searchItems[it.Firstname + " " + it.Lastname] = it.RoomName
                     allTeachers[it.Firstname + " " + it.Lastname] = it
                 }
-
-                println("teachers" + list.size)
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
@@ -116,6 +116,42 @@ class API {
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
                 callback.invoke(null)
+            }
+        })
+    }
+
+
+
+    fun fetchTeachers(callback: (MutableList<String>?) -> Unit){
+
+        val client = OkHttpClient().newBuilder().build()
+        val requestTeacher: Request = Request.Builder()
+            .url("https://api.ju.se/api/Staff?filter=")
+            .method("GET", null)
+            .addHeader("Authorization", "Basic $auth")
+            .build()
+
+
+        client.newCall(requestTeacher).enqueue(object: Callback {
+            override fun onResponse(call: Call, response: Response) {
+                val body = response?.body?.string()
+                val gson = Gson()
+                val listTeacherType = object : TypeToken<ArrayList<Teacher>>() {}.type
+                var teachers = gson.fromJson<ArrayList<Teacher>>(body, listTeacherType)
+
+                teachers.forEach {
+                    list.add(it.Firstname + " " + it.Lastname)
+                    nameOfTeachers.add(it.Firstname + " " + it.Lastname)
+                    searchItems[it.Firstname + " " + it.Lastname] = it.RoomName
+                    allTeachers[it.Firstname + " " + it.Lastname] = it
+                }
+
+                callback(nameOfTeachers)
+
+            }
+            override fun onFailure(call: Call, e: IOException) {
+                println("request failed: $e")
+                callback(null)
             }
         })
 
