@@ -32,9 +32,6 @@ class MainActivity : AppCompatActivity() {
     var api: API = API()
     @RequiresApi(Build.VERSION_CODES.O)
     var suggestions = api.fetchStaffFromApi()
-    var graph = initGraph()
-    var dictionary = mDictionary()
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,60 +58,25 @@ class MainActivity : AppCompatActivity() {
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
 
-
-
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
             val selectedRoom = api.searchItems[selectedItem]
 
-            val intent = Intent(this, NavigationActivity::class.java)
-            intent.putExtra("graph", graph)
+
 
             if(api.allRooms.containsKey(selectedItem)){
+                val intent = Intent(this, NavigationActivity::class.java)
                 intent.putExtra("room", api.allRooms[selectedItem])
+                startActivity(intent)
             }else{
+                val intent = Intent(this, DisplayTeacherActivity::class.java)
                 intent.putExtra("teacher", api.allTeachers[selectedItem])
+                startActivity(intent)
             }
-            startActivity(intent)
-        }
-    }
 
-    fun initGraph(): Graph{
-        var data: NodeData = NodeData()
-        var graph: Graph = Graph()
-        var directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
-        var positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
-        var connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
-        for(node in directionNodes){
-            var nodeName = node.split(";").get(0)
-            var nodeDirs: String = node.split(";").get(1)
-            var newNode = rNode(nodeName, nodeDirs)
-            graph.addRoom(newNode)
         }
-        for(connection in connections){
-            var names = connection.split(" ")
-            for(i in 1 until names.size){
-                var root = graph.getRoom(names.get(0))
-                var neighbor = graph.getRoom(names.get(i))
-                if(root!=null && neighbor != null){
-                    graph.setConnectionBetweenRooms(root, neighbor)
-                }
-            }
-        }
-        for(node in positionNodes){
-            var vals = node.split(";")
-            var parentName = vals.get(0)
-            var childName = vals.get(1)
-            var position = vals.get(2)
-            var newRoom = rNode(childName, position)
-            var parentRoom = graph.getRoom(parentName)
-            graph.addRoom(newRoom)
-            if(parentRoom != null)
-                graph.setConnectionBetweenRooms(parentRoom, newRoom)
-        }
-        return graph
     }
 
 }

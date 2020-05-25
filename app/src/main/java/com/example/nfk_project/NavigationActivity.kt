@@ -12,6 +12,8 @@ import okhttp3.*
 import java.io.IOException
 import java.lang.Error
 import Graph
+import NodeData
+import rNode
 import java.util.*
 
 
@@ -24,21 +26,13 @@ class NavigationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_navigation)
 
         var dictionary = mDictionary()
-        var graph: Graph = intent.getSerializableExtra("graph") as Graph
+        var graph: Graph = initGraph()
         dictionary.init(graph.getRoomNames())
 
-        if(intent.hasExtra("teacher")) {
-            var teacher = intent.getSerializableExtra("teacher") as Teacher
-            setPhoto(teacher)
-            setNavigationText(teacher.RoomName, getPath(teacher.RoomName, graph, dictionary))
-        }
-        else {
-            var searchedRoom = intent.getSerializableExtra("room") as Room
-            setNavigationText(searchedRoom.Name, getPath(searchedRoom.Name, graph, dictionary))
-        }
+        var searchedRoom = intent.getSerializableExtra("room") as Room
+        setNavigationText(searchedRoom.Name, getPath(searchedRoom.Name, graph, dictionary))
 
     }
-
 
     fun getPath(searchedFor: String, graph: Graph, dictionary: mDictionary): String{
         var destination = dictionary.getNameOfNode(searchedFor)
@@ -51,47 +45,43 @@ class NavigationActivity : AppCompatActivity() {
         }
     }
 
-    fun setPhoto(teacher: Teacher){
-        if(teacher.Photo){
-            api.requestPhoto(teacher.Signature, fun (response : Bitmap?){
-                runOnUiThread(){
-                    photo.setImageBitmap(response)
-                }
-            })
-        }
-    }
-
     fun setNavigationText(roomName: String, navigation: String){
         textView.setText("Navigation to $roomName" + "\n$navigation")
     }
-
-}
-
-/*
-*
-
-        val bundle :Bundle ?=intent.extras
-        if (bundle!=null){
-
-            val roomNbr = bundle.getString("value")
-            val teacher = intent.getSerializableExtra("teacher") as Teacher
-
-
-            if(teacher.Photo){
-                api.requestPhoto(teacher.Signature, fun (response : Bitmap?){
-                    runOnUiThread(){
-                        photo.setImageBitmap(response)
-                    }
-                })
-            }
-            else{
-                println("NO PHOTO")
-            }
-            if (roomNbr != null) {
-                if(roomNbr.isEmpty()){
-                    textView.text = "No Room found for $teacher"
-                }else{
-                    textView.text = "${teacher.Firstname}\nNavigation to $roomNbr"
+    fun initGraph(): Graph{
+        var data: NodeData = NodeData()
+        var graph: Graph = Graph()
+        var directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
+        var positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
+        var connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
+        for(node in directionNodes){
+            var nodeName = node.split(";").get(0)
+            var nodeDirs: String = node.split(";").get(1)
+            var newNode = rNode(nodeName, nodeDirs)
+            graph.addRoom(newNode)
+        }
+        for(connection in connections){
+            var names = connection.split(" ")
+            for(i in 1 until names.size){
+                var root = graph.getRoom(names.get(0))
+                var neighbor = graph.getRoom(names.get(i))
+                if(root!=null && neighbor != null){
+                    graph.setConnectionBetweenRooms(root, neighbor)
                 }
             }
-        }*/
+        }
+        for(node in positionNodes){
+            var vals = node.split(";")
+            var parentName = vals.get(0)
+            var childName = vals.get(1)
+            var position = vals.get(2)
+            var newRoom = rNode(childName, position)
+            var parentRoom = graph.getRoom(parentName)
+            graph.addRoom(newRoom)
+            if(parentRoom != null)
+                graph.setConnectionBetweenRooms(parentRoom, newRoom)
+        }
+        return graph
+    }
+}
+
