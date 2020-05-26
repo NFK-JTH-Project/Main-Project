@@ -2,12 +2,21 @@ package com.example.nfk_project
 
 import Graph
 import NodeData
+import android.content.Context
 import android.content.Intent
+import android.content.pm.ActivityInfo
+import android.graphics.Bitmap
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.os.Parcelable
 import android.text.Editable
 import android.text.TextWatcher
+import android.transition.TransitionManager
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.Window
+import android.view.WindowManager
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +28,8 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_teacher_popup.*
 import mDictionary
 import okhttp3.*
 import rNode
@@ -62,22 +73,101 @@ class MainActivity : AppCompatActivity() {
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
-            val selectedRoom = api.searchItems[selectedItem]
-
-
 
             if(api.allRooms.containsKey(selectedItem)){
                 val intent = Intent(this, NavigationActivity::class.java)
                 intent.putExtra("room", api.allRooms[selectedItem])
                 startActivity(intent)
             }else{
-                val intent = Intent(this, DisplayTeacherActivity::class.java)
+
+                /*al intent = Intent(this, DisplayTeacherActivity::class.java)
                 intent.putExtra("teacher", api.allTeachers[selectedItem])
-                startActivity(intent)
+                startActivity(intent)*/
+                val teacher = api.allTeachers[selectedItem]
+                if (teacher != null) {
+                    createPopup(teacher)
+                }
+
+
+
             }
+
 
         }
     }
+
+    private fun createPopup(teacher : Teacher){
+        // Initialize a new layout inflater instance
+        val inflater:LayoutInflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+        // Inflate a custom view using layout inflater
+        val view = inflater.inflate(R.layout.activity_teacher_popup,null)
+
+        // Initialize a new instance of popup window
+        val popupWindow = PopupWindow(
+            view, // Custom view to show in popup window
+            LinearLayout.LayoutParams.WRAP_CONTENT, // Width of popup window
+            LinearLayout.LayoutParams.WRAP_CONTENT // Window height
+        )
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            popupWindow.elevation = 10.0F
+        }else{
+            println("not lolopop version")
+        }
+
+        val buttonPopup = view.findViewById<Button>(R.id.button_popup)
+
+        val name = view.findViewById<TextView>(R.id.teacher_Name)
+        val phone = view.findViewById<TextView>(R.id.teacher_Phone)
+        val email = view.findViewById<TextView>(R.id.teacher_Email)
+        val office = view.findViewById<TextView>(R.id.teacher_Office)
+        val signature = view.findViewById<TextView>(R.id.teacher_Signature)
+
+        name.text = teacher.Firstname.toString() + " " + teacher.Lastname.toString()
+        phone.text = teacher.Mobile.toString()
+        email.text = teacher.Mail.toString()
+        office.text = teacher.RoomName.toString()
+        signature.text = teacher.Signature.toString()
+
+
+        if(teacher.Photo){
+            val teacherPhoto = view.findViewById<ImageView>(R.id.teacher_Photo)
+            api.requestPhoto(teacher.Signature, fun (response : Bitmap?){
+                runOnUiThread(){
+                    teacherPhoto.setImageBitmap(response)
+                }
+            })
+        }
+
+
+        // Set a click listener for popup's button widget
+        buttonPopup.setOnClickListener{
+            // Dismiss the popup window
+            popupWindow.dismiss()
+        }
+
+        val buttonFindTeacher = view.findViewById<Button>(R.id.button_get_navigation)
+        buttonFindTeacher.setOnClickListener{
+            var intent = Intent(this, NavigationActivity::class.java)
+            var room = Room(teacher.RoomName)
+            intent.putExtra("room", room)
+            startActivity(intent)
+        }
+
+        // Set a dismiss listener for popup window
+        popupWindow.setOnDismissListener {
+            Toast.makeText(applicationContext,"Popup closed",Toast.LENGTH_SHORT).show()
+        }
+
+        // Finally, show the popup window on app
+        TransitionManager.beginDelayedTransition(root_layout)
+        popupWindow.showAtLocation(
+            root_layout, // Location to display popup window
+            Gravity.CENTER, // Exact position of layout to display popup
+            0, // X offset
+            0 // Y offset
+        )
+    }
+
 
 }
 

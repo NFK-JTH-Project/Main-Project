@@ -12,8 +12,8 @@
         android:layout_height="400dp"
         android:elevation="10dp"
         app:cardBackgroundColor="@color/cardview_light_background"
-        app:cardElevation="15dp"
-        app:cardCornerRadius="4dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
         >
 
         <RelativeLayout
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/photo"
+                    android:id="@+id/teacher_Photo"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_alignParentLeft="true"
@@ -40,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@id/photo"
+                    android:layout_toRightOf="@id/teacher_Photo"
                     android:layout_marginTop="16dp"
                     android:text="Name: "
                     android:textSize="25sp"
@@ -53,7 +53,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/teacherName"
                     android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/photo"
+                    android:layout_toRightOf="@id/teacher_Photo"
                     android:text="Phone: "
                     android:textSize="25sp"
                     android:textStyle="bold"
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/teacherPhone"
                     android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/photo"
+                    android:layout_toRightOf="@id/teacher_Photo"
                     android:text="Email: "
                     android:textSize="25sp"
                     android:textStyle="bold"
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/teacherEmail"
                     android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/photo"
+                    android:layout_toRightOf="@id/teacher_Photo"
                     android:text="Office: "
                     android:textSize="25sp"
                     android:textStyle="bold"
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/teacherOffice"
                     android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/photo"
+                    android:layout_toRightOf="@id/teacher_Photo"
                     android:text="Signature: "
                     android:textSize="25sp"
                     android:textStyle="bold"
@@ -107,31 +107,31 @@
                 >
 
                 <TextView
-                    android:id="@+id/Name"
+                    android:id="@+id/teacher_Name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="23dp"
+                    android:layout_marginTop="22dp"
                     android:text="Name: "
                     android:textSize="20sp"
 
                     />
 
                 <TextView
-                    android:id="@+id/Phone"
+                    android:id="@+id/teacher_Phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/Name"
+                    android:layout_below="@id/teacher_Name"
                     android:layout_marginTop="23dp"
                     android:text="Phone: "
                     android:textSize="20sp"
 
                     />
                 <TextView
-                    android:id="@+id/Email"
+                    android:id="@+id/teacher_Email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/Phone"
+                    android:layout_below="@id/teacher_Phone"
                     android:layout_marginTop="23dp"
                     android:text="Email: "
                     android:textSize="20sp"
@@ -139,10 +139,10 @@
                     />
 
                 <TextView
-                    android:id="@+id/Office"
+                    android:id="@+id/teacher_Office"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/Email"
+                    android:layout_below="@id/teacher_Email"
                     android:layout_marginTop="23dp"
                     android:text="Office: "
                     android:textSize="20sp"
@@ -150,10 +150,10 @@
                     />
 
                 <TextView
-                    android:id="@+id/Signature"
+                    android:id="@+id/teacher_Signature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/Office"
+                    android:layout_below="@id/teacher_Office"
                     android:layout_marginTop="23dp"
                     android:text="Signature: "
                     android:textSize="20sp"
@@ -163,12 +163,25 @@
             </RelativeLayout>
 
             <Button
-                android:id="@+id/FindTeacherBtn"
+                android:id="@+id/button_popup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Close Me"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                />
+
+            <Button
+                android:id="@+id/button_get_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naviation"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
-                android:text="Find" />
+
+                />
+
+
         </RelativeLayout>
 
 
@@ -177,3 +190,4 @@
 
 
 </RelativeLayout>
+
