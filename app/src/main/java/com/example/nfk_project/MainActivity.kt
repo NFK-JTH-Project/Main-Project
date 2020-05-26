@@ -13,13 +13,11 @@ import android.os.Parcelable
 import android.text.Editable
 import android.text.TextWatcher
 import android.transition.TransitionManager
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.Window
-import android.view.WindowManager
+import android.view.*
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import androidx.core.widget.doAfterTextChanged
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -79,17 +77,10 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("room", api.allRooms[selectedItem])
                 startActivity(intent)
             }else{
-
-                /*al intent = Intent(this, DisplayTeacherActivity::class.java)
-                intent.putExtra("teacher", api.allTeachers[selectedItem])
-                startActivity(intent)*/
                 val teacher = api.allTeachers[selectedItem]
                 if (teacher != null) {
                     createPopup(teacher)
                 }
-
-
-
             }
 
 
@@ -115,12 +106,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         val buttonPopup = view.findViewById<Button>(R.id.button_popup)
-
         val name = view.findViewById<TextView>(R.id.teacher_Name)
         val phone = view.findViewById<TextView>(R.id.teacher_Phone)
         val email = view.findViewById<TextView>(R.id.teacher_Email)
         val office = view.findViewById<TextView>(R.id.teacher_Office)
         val signature = view.findViewById<TextView>(R.id.teacher_Signature)
+        val teacherPhoto = view.findViewById<ImageView>(R.id.teacher_Photo)
 
         name.text = teacher.Firstname.toString() + " " + teacher.Lastname.toString()
         phone.text = teacher.Mobile.toString()
@@ -130,12 +121,16 @@ class MainActivity : AppCompatActivity() {
 
 
         if(teacher.Photo){
-            val teacherPhoto = view.findViewById<ImageView>(R.id.teacher_Photo)
+            val progressbar = view.findViewById<ProgressBar>(R.id.progressBar)
+            progressbar.visibility = View.VISIBLE
             api.requestPhoto(teacher.Signature, fun (response : Bitmap?){
                 runOnUiThread(){
+                    progressbar.visibility = View.GONE
                     teacherPhoto.setImageBitmap(response)
                 }
             })
+        }else{
+
         }
 
 

@@ -35,6 +35,19 @@
                     android:layout_marginTop="16dp"
                     />
 
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleX="0.5"
+                    android:scaleY="0.5"
+                    android:visibility="gone" />
+
                 <TextView
                     android:id="@+id/teacherName"
                     android:layout_width="wrap_content"
@@ -93,6 +106,8 @@
                     android:textSize="25sp"
                     android:textStyle="bold"
                     />
+
+
 
 
             </RelativeLayout>
