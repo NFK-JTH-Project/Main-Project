@@ -14,15 +14,4 @@
 
     <string name="Language">Language</string>
 
-    <string-array name="suggestions">
-        <item>E1020</item>
-        <item>E10119</item>
-        <item>E2023</item>
-        <item>E4004</item>
-        <item>Peter_Larson_Green</item>
-        <item>Gunnar_Gunnarsson</item>
-        <item>Fagerhults_Aulan</item>
-        <item>Rio</item>
-    </string-array>
-
 </resources>

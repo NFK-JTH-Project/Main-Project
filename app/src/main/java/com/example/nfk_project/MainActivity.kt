@@ -1,58 +1,56 @@
 package com.example.nfk_project
 
-import Graph
-import NodeData
+import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
-import android.content.pm.ActivityInfo
 import android.graphics.Bitmap
-import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.os.Parcelable
-import android.text.Editable
-import android.text.TextWatcher
+import android.os.Handler
 import android.transition.TransitionManager
-import android.view.*
-import android.view.View.GONE
+import android.util.Log
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
+import android.view.WindowManager
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.view.isVisible
-import androidx.core.widget.doAfterTextChanged
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_teacher_popup.*
+import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
-import mDictionary
-import okhttp3.*
-import rNode
-import java.io.IOException
-import java.util.*
-import kotlin.collections.ArrayList
-import java.util.TreeMap as TreeMap
+import kotlinx.android.synthetic.main.toolbar.view.britainBtn
 
 
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
     var api: API = API()
+
     @RequiresApi(Build.VERSION_CODES.O)
     var suggestions = api.fetchStaffFromApi()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
+
+        britainBtn.setOnClickListener {
+            britainBtn.alpha = 0.3F
+            swedenBtn.alpha = 1F
+        }
+        swedenBtn.setOnClickListener {
+            swedenBtn.alpha = 0.3F
+            britainBtn.alpha = 1F
+        }
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
@@ -79,6 +77,7 @@ class MainActivity : AppCompatActivity() {
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
+            println(api.allRooms[selectedItem])
 
             if(api.allRooms.containsKey(selectedItem)){
                 val intent = Intent(this, NavigationActivity::class.java)
@@ -87,12 +86,29 @@ class MainActivity : AppCompatActivity() {
             }else{
                 val teacher = api.allTeachers[selectedItem]
                 if (teacher != null) {
+
                     createPopup(teacher)
                 }
             }
-
-
         }
+
+    }
+
+    //disable backbutton so you can't leave the application
+    override fun onBackPressed() {
+    }
+    //Make the homebutton always go to main acitvity
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        if (Intent.ACTION_MAIN == intent.action) {
+        }
+    }
+    //Disable recent application button
+    override fun onPause() {
+        super.onPause()
+        val activityManager = applicationContext
+            .getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
+        activityManager.moveTaskToFront(taskId, 0)
     }
 
     private fun createPopup(teacher : Teacher){
@@ -112,7 +128,8 @@ class MainActivity : AppCompatActivity() {
         }else{
             println("not lolopop version")
         }
-
+        var popUpState = true
+        val buttonFindTeacher = view.findViewById<Button>(R.id.button_get_navigation)
         val buttonPopup = view.findViewById<Button>(R.id.button_popup)
         val name = view.findViewById<TextView>(R.id.teacher_Name)
         val phone = view.findViewById<TextView>(R.id.teacher_Phone)
@@ -126,6 +143,10 @@ class MainActivity : AppCompatActivity() {
         email.text = teacher.Mail.toString()
         office.text = teacher.RoomName.toString()
         signature.text = teacher.Signature.toString()
+
+        if(teacher.RoomName == "") {
+            buttonFindTeacher.visibility = View.GONE
+        }
 
         if(teacher.Photo){
             val progressbar = view.findViewById<ProgressBar>(R.id.progressBar)
@@ -146,10 +167,12 @@ class MainActivity : AppCompatActivity() {
         buttonPopup.setOnClickListener{
             // Dismiss the popup window
             popupWindow.dismiss()
+            popUpState = false
         }
 
-        val buttonFindTeacher = view.findViewById<Button>(R.id.button_get_navigation)
+
         buttonFindTeacher.setOnClickListener{
+            popUpState = false
             var intent = Intent(this, NavigationActivity::class.java)
             var room = Room(teacher.RoomName)
             intent.putExtra("room", room)
@@ -169,6 +192,12 @@ class MainActivity : AppCompatActivity() {
             0, // X offset
             0 // Y offset
         )
+        Handler().postDelayed({
+            if (popUpState) {
+                popupWindow.dismiss()
+                popUpState = false
+            }
+        }, 5 * 1000.toLong())
     }
 
 

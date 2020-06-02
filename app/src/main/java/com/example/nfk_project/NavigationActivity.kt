@@ -1,21 +1,17 @@
 package com.example.nfk_project
 
-import android.annotation.SuppressLint
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.widget.TextView
-import kotlinx.android.synthetic.main.activity_navigation.*
-import mDictionary
-import okhttp3.*
-import java.io.IOException
-import java.lang.Error
 import Graph
 import NodeData
+import android.annotation.SuppressLint
+import android.app.ActivityManager
+import android.content.Context
 import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import kotlinx.android.synthetic.main.activity_navigation.*
 import kotlinx.android.synthetic.main.toolbar.view.*
+import mDictionary
 import rNode
 import java.util.*
 
@@ -41,9 +37,18 @@ class NavigationActivity : AppCompatActivity() {
         dictionary.init(graph.getRoomNames())
 
         var searchedRoom = intent.getSerializableExtra("room") as Room
+
         setNavigationText(searchedRoom.Name, getPath(searchedRoom.Name, graph, dictionary))
 
     }
+
+    override fun onPause() {
+        super.onPause()
+        val activityManager = applicationContext
+            .getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
+        activityManager.moveTaskToFront(taskId, 0)
+    }
+
 
     fun getPath(searchedFor: String, graph: Graph, dictionary: mDictionary): String{
         var destination = dictionary.getNameOfNode(searchedFor)
@@ -51,6 +56,8 @@ class NavigationActivity : AppCompatActivity() {
             "NOT_FOUND" -> return("The room number was not recognized")
             "NO_ROOM" -> return("The teacher has no room registered")
             else -> {
+                if(!destination.get(0).equals("E"))
+                    return "Not found"
                 return(graph.getPath("A", destination))
             }
         }

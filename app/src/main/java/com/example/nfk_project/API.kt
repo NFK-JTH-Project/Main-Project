@@ -165,9 +165,13 @@ class API {
         val fagerhultsAulan = Room("E1423")
         val gjuterisalen = Room("E1405")
         val storaEnso = Room("E1029")
-        val leonardo = Room("E3106") //????? osäker
-        val gallileo = Room("E4222")
+        val leonardo = Room("E3105d") //????? osäker
+        val gallileo = Room("A4422b")
         val daVinci = Room("E4106")
+        val indigo = Room("A2116")
+        val lewinsalen = Room("D2419")
+        val solon = Room("A4301")
+        val theano = Room("B2225")
 
         list.add("Fagerhults Aulan")
         list.add("Gjuteri Salen")
@@ -175,6 +179,10 @@ class API {
         list.add("Leonardo")
         list.add("Gallileo")
         list.add("Da Vinci")
+        list.add("Indigo")
+        list.add("Lewinsalen")
+        list.add("Solon")
+        list.add("Theano")
 
         allRooms["Fagerhults Aulan"] = fagerhultsAulan
         allRooms["Gjuteri Salen"] = gjuterisalen
@@ -182,6 +190,10 @@ class API {
         allRooms["Leonardo"] = leonardo
         allRooms["Gallileo"] = gallileo
         allRooms["Da Vinci"] = daVinci
+        allRooms["Indigo"] = indigo
+        allRooms["Lewinsalen"] = lewinsalen
+        allRooms["Solon"] = solon
+        allRooms["Theano"] = theano
 
 
 
