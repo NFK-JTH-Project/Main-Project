@@ -13,6 +13,9 @@ import java.io.IOException
 import java.lang.Error
 import Graph
 import NodeData
+import android.content.Intent
+import androidx.appcompat.widget.Toolbar
+import kotlinx.android.synthetic.main.toolbar.view.*
 import rNode
 import java.util.*
 
@@ -24,6 +27,14 @@ class NavigationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        toolbar.backBtn.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
 
         var dictionary = mDictionary()
         var graph: Graph = initGraph()

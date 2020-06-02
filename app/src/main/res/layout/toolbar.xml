@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_on_secondary"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"
+            />
+        <ImageButton
+            android:id="@+id/swedenBtn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="@string/Language"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/sweden"
+            />
+
+        <ImageButton
+            android:id="@+id/britainBtn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/swedenBtn"
+            android:src="@drawable/britain"
+            android:text="@string/Language" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.Toolbar>

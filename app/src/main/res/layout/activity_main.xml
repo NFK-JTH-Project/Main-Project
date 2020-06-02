@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     android:id="@+id/root_layout">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
     <androidx.appcompat.widget.AppCompatAutoCompleteTextView
         android:id="@+id/search_bar"
         android:layout_width="match_parent"

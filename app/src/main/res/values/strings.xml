@@ -12,6 +12,8 @@
     <string name="search_title">Search</string>
     <string name="search_hint">Search for a room or teacher</string>
 
+    <string name="Language">Language</string>
+
     <string-array name="suggestions">
         <item>E1020</item>
         <item>E10119</item>

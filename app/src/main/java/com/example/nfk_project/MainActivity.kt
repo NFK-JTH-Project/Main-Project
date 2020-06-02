@@ -14,9 +14,11 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.transition.TransitionManager
 import android.view.*
+import android.view.View.GONE
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
 import androidx.core.widget.doAfterTextChanged
 import androidx.navigation.findNavController
@@ -26,8 +28,10 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_teacher_popup.*
+import kotlinx.android.synthetic.main.toolbar.view.*
 import mDictionary
 import okhttp3.*
 import rNode
@@ -45,6 +49,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        toolbar.backBtn.visibility = View.GONE
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
@@ -119,7 +127,6 @@ class MainActivity : AppCompatActivity() {
         office.text = teacher.RoomName.toString()
         signature.text = teacher.Signature.toString()
 
-
         if(teacher.Photo){
             val progressbar = view.findViewById<ProgressBar>(R.id.progressBar)
             progressbar.visibility = View.VISIBLE
@@ -130,9 +137,10 @@ class MainActivity : AppCompatActivity() {
                 }
             })
         }else{
-
+            runOnUiThread(){
+                teacherPhoto.setImageResource(R.drawable.no_image_available)
+            }
         }
-
 
         // Set a click listener for popup's button widget
         buttonPopup.setOnClickListener{

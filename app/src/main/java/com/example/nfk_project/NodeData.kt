@@ -90,8 +90,8 @@ class NodeData(){
             "C2;Go to the third wing.\n" +
             "D2;Go to the forth wing.\n" +
             "E2;Go into the corridor on the right.\n" +
-            "A3;Take the elevator/staircase to the third floor and take a right.\n" +
-            "B3;Take the elevator/staircase to the third floor and take a left.\n" +
+            "A3;Take the elevator/staircase to the fourth floor and take a right.\n" +
+            "B3;Take the elevator/staircase to the fourth floor and take a left.\n" +
             "C3;Go to the third wing.\n" +
             "D3;Go to the forth wing at the end of the main corridor."
 }

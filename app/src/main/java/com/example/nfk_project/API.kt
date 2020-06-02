@@ -7,6 +7,7 @@ import androidx.annotation.RequiresApi
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import okhttp3.*
+import okhttp3.internal.notify
 import java.io.IOException
 import java.util.*
 
@@ -80,12 +81,17 @@ class API {
                 val listRoomType = object : TypeToken<ArrayList<Room>>() {}.type
                 var rooms = gson.fromJson<ArrayList<Room>>(body, listRoomType)
 
+                //Create hardcoded rooms like "Fagerhults Aulan"
+                createRoomWithNames()
+
                 //teachers.forEachIndexed  { idx, tut -> println("> Item ${tut}") }
                 rooms.forEach {
                     list.add(it.Name)
                     searchItems[it.Name] = it.Name
                     allRooms[it.Name] = it
                 }
+
+
             }
             override fun onFailure(call: Call, e: IOException) {
                 println("request failed: $e")
@@ -154,4 +160,31 @@ class API {
         })
 
     }
+
+    fun createRoomWithNames(){
+        val fagerhultsAulan = Room("E1423")
+        val gjuterisalen = Room("E1405")
+        val storaEnso = Room("E1029")
+        val leonardo = Room("E3106") //????? osäker
+        val gallileo = Room("E4222")
+        val daVinci = Room("E4106")
+
+        list.add("Fagerhults Aulan")
+        list.add("Gjuteri Salen")
+        list.add("Stora Enso")
+        list.add("Leonardo")
+        list.add("Gallileo")
+        list.add("Da Vinci")
+
+        allRooms["Fagerhults Aulan"] = fagerhultsAulan
+        allRooms["Gjuteri Salen"] = gjuterisalen
+        allRooms["Stora Enso"] = storaEnso
+        allRooms["Leonardo"] = leonardo
+        allRooms["Gallileo"] = gallileo
+        allRooms["Da Vinci"] = daVinci
+
+
+
+    }
+
 }

@@ -12,7 +12,6 @@ class Teacher(
     val Photo: Boolean
 ): Serializable{
     override fun toString(): String {
-        var s = "Name: $Firstname $Lastname \nPhone: $Mobile\nEmail: $Mail\nOffice: $RoomName\nSignature: $Signature"
-        return s
+        return "Name: $Firstname $Lastname \nPhone: $Mobile\nEmail: $Mail\nOffice: $RoomName\nSignature: $Signature"
     }
 }

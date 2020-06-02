@@ -5,4 +5,8 @@
     <color name="main_palette_text">#FFFFFF</color>
     <color name="main_palette_toolbar">#404040</color>
     <color name="main_palette_accent">#D81B60</color>
+    <color name="main_palette_link">#00a8e8</color>
+    <color name="main_palette_allert">#e01e37</color>
+
+
 </resources>
