@@ -1,19 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_palette_background">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_palette_background"
+    android:id="@+id/constraintlayout">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imageView2"
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        android:padding="15sp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/checkboxlayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/floor1"/>
-  
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/floor1_complete_map">
+    </com.github.chrisbanes.photoview.PhotoView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/checkboxlayout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TableRow>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </Space>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_you_are_here"
+                android:id="@+id/youareherecheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+            </Space>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_rooms"
+                android:id="@+id/roomscheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+            </Space>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_vending_machines"
+                android:id="@+id/vendingmachinescheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </Space>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </Space>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_stairs_elevators"
+                android:id="@+id/stairselevatorscheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+            </Space>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_toilets"
+                android:id="@+id/toiletscheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+            </Space>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_exits_entrances"
+                android:id="@+id/exitsentrancescheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+            </Space>
+
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

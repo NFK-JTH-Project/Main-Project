@@ -3,24 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_Floor_0"
-
-        android:title="@string/Floor_1" />
-
-    <item
         android:id="@+id/navigation_Floor_1"
-
-        android:title="@string/Floor_2" />
+        android:title="@string/title_Floor_1"/>
 
     <item
         android:id="@+id/navigation_Floor_2"
-        
-        android:title="@string/Floor_3" />
+        android:title="@string/title_Floor_2"/>
+
     <item
         android:id="@+id/navigation_Floor_3"
+        android:title="@string/title_Floor_3"/>
 
-        android:title="@string/title_Floor_4"
-        />
-
+    <item
+        android:id="@+id/navigation_Floor_4"
+        android:title="@string/title_Floor_4"/>
 
 </menu>
