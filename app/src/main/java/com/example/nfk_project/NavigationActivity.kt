@@ -7,6 +7,7 @@ import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import kotlinx.android.synthetic.main.activity_navigation.*
@@ -18,17 +19,29 @@ import java.util.*
 
 class NavigationActivity : AppCompatActivity() {
     var api: API = API()
+    private val TIME_OUT =  1000 * 60 * 2 // 2 minutes
+    private val TOAST_MESSAGE = "Returning home due to inactivity"
+    private val RUNNABLE = Runnable {             val i = Intent(this, MainActivity::class.java)
+        i.putExtra("inactivity_message", TOAST_MESSAGE)
+        startActivity(i)
+        finish() }
+    private val ACTIVITY_HANDLER = Handler()
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
 
+
+        ACTIVITY_HANDLER.postDelayed(RUNNABLE, TIME_OUT.toLong())
+
+
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
         toolbar.backBtn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            ACTIVITY_HANDLER.removeCallbacks(RUNNABLE)
             startActivity(intent)
         }
 
@@ -37,9 +50,19 @@ class NavigationActivity : AppCompatActivity() {
         dictionary.init(graph.getRoomNames())
 
         var searchedRoom = intent.getSerializableExtra("room") as Room
-
         setNavigationText(searchedRoom.Name, getPath(searchedRoom.Name, graph, dictionary))
 
+
+
+
+
+
+    }
+
+    override fun onBackPressed() {
+        ACTIVITY_HANDLER.removeCallbacks(RUNNABLE)
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 
     override fun onPause() {
@@ -56,8 +79,10 @@ class NavigationActivity : AppCompatActivity() {
             "NOT_FOUND" -> return("The room number was not recognized")
             "NO_ROOM" -> return("The teacher has no room registered")
             else -> {
-                if(!destination.get(0).equals("E"))
+                if(destination[0] != 'E'){
+                    println(destination[0])
                     return "Not found"
+                }
                 return(graph.getPath("A", destination))
             }
         }

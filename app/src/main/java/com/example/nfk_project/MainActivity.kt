@@ -38,6 +38,13 @@ open class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
+        if(intent.hasExtra("inactivity_message")) {
+            var inactivityMessage = intent.getStringExtra("inactivity_message")
+            Toast.makeText(this, inactivityMessage, Toast.LENGTH_LONG).show()
+            println("Toasted")
+        }
+
+
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
