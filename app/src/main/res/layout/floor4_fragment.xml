@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502"
-        app:srcCompat="@drawable/floor2_complete_map">
+        app:srcCompat="@drawable/floor4_complete_map">
     </com.github.chrisbanes.photoview.PhotoView>
 
     <TableLayout
@@ -63,7 +63,17 @@
             <Space
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:layout_weight="0.4">
+                android:layout_weight="1">
+            </Space>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
             </Space>
 
             <CheckBox
@@ -71,6 +81,20 @@
                 android:layout_height="wrap_content"
                 android:text="@string/checkbox_toilets"
                 android:id="@+id/toiletscheckbox"
+                android:checked="true">
+            </CheckBox>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+            </Space>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox_exits_entrances"
+                android:id="@+id/exitsentrancescheckbox"
                 android:checked="true">
             </CheckBox>
 

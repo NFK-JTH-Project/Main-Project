@@ -8,7 +8,6 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.transition.TransitionManager
-import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -21,11 +20,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.nfk_project.MapCreator.bitmapRepository
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
-import kotlinx.android.synthetic.main.toolbar.view.britainBtn
 
 
 open class MainActivity : AppCompatActivity() {
@@ -59,12 +58,30 @@ open class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_Floor_0, R.id.navigation_Floor_1, R.id.navigation_Floor_2, R.id.navigation_Floor_3
+                R.id.navigation_Floor_1, R.id.navigation_Floor_2, R.id.navigation_Floor_3, R.id.navigation_Floor_4
             )
         )
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        //Will listen for changes to current navigationItem, to set the bitmapRepository at the correct floor
+        navController.addOnDestinationChangedListener { navCon, dest, _ ->
+            when (dest.label) {
+                resources.getString(R.string.title_Floor_1) -> {
+                    bitmapRepository.setCurrentFloor(1)
+                }
+                resources.getString(R.string.title_Floor_2) -> {
+                    bitmapRepository.setCurrentFloor(2)
+                }
+                resources.getString(R.string.title_Floor_3) -> {
+                    bitmapRepository.setCurrentFloor(3)
+                }
+                resources.getString(R.string.title_Floor_4) -> {
+                    bitmapRepository.setCurrentFloor(4)
+                }
+            }
+        }
 
         val search_bar = findViewById<AutoCompleteTextView>(R.id.search_bar)
 
@@ -199,8 +216,6 @@ open class MainActivity : AppCompatActivity() {
             }
         }, 5 * 1000.toLong())
     }
-
-
 }
 
 
