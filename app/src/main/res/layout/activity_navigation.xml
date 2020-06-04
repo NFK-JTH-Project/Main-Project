@@ -10,20 +10,65 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         />
-
-    <TextView
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
-        android:text="TextView"
-        android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/Nav_Map_Image_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/navigationTexts"
+            >
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/navigationTexts"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/black_boarder"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/roomTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROOM TITLE"
+                android:textSize="25dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_centerHorizontal="false"
+                android:id="@+id/textView"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_below="@id/roomTitle"
+                android:padding="10dp"
+                >
+            </TextView>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
 
 
 </RelativeLayout>

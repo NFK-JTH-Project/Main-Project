@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JUNavigation</string>
+    <string name="title_Floor_1">Våning 1</string>
+    <string name="title_Floor_2">Våning 2</string>
+    <string name="title_Floor_3">Våning 3</string>
+    <string name="title_Floor_4">Våning 4</string>
+
+    <string name="search_title">Sök</string>
+    <string name="search_hint">Sök efter rum eller personal</string>
+
+    <string name="Language">Språk</string>
+
+    /* *** Values for map checkboxes *** */
+    <string name="checkbox_you_are_here">Du är här</string>
+    <string name="checkbox_rooms">Rum</string>
+    <string name="checkbox_vending_machines">Automater</string>
+    <string name="checkbox_stairs_elevators">Trapport och hissar</string>
+    <string name="checkbox_toilets">Toaletter</string>
+    <string name="checkbox_exits_entrances">Utgångar och ingångar</string>
+
+    /* *** Other strings *** */
+    <string name="splashscreen_loading">Laddar kartor, vänligen vänta…</string>
+    <string name="name">Namn</string>
+    <string name="phone">Telefon</string>
+    <string name="email">E-post</string>
+    <string name="office">Rum</string>
+    <string name="signature">Signatur</string>
+    <string name="find_office">Hitta Rum</string>
+    <string name="close_me">Stäng</string>
+    <string name="navigation_to">Navigering till</string>
+</resources>
