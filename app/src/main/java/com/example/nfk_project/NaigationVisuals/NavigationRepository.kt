@@ -1,11 +1,12 @@
 package com.example.nfk_project.NaigationVisuals
 
 
+import android.content.Context
 import android.content.res.Resources
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import com.example.nfk_project.R
-import kotlin.math.floor
+import java.util.*
+import kotlin.collections.ArrayList
 
 val navRepo = NavigationRepository()
 
@@ -19,14 +20,14 @@ class NavigationRepository {
 
 
 
-    fun createBitMap(res: Resources, floorname: String, endNode: String){
+    fun createBitMap(res: Resources, floorname: String, endNode: String, context: Context){
         resetLayers()
-        var drawable = getDrawable(floorname)
+        var drawable = getDrawable(floorname, context)
         var bitmap = BitmapFactory.decodeResource(res, drawable)
         var layer = NavLayer(bitmap, true)
         addLayer(floorname, layer)
 
-        drawable = getDrawable(endNode)
+        drawable = getDrawable(endNode, context)
         if(drawable == -1) return
         println("this should not be printed")
         bitmap = BitmapFactory.decodeResource(res, drawable)
@@ -53,17 +54,26 @@ class NavigationRepository {
         floor4.clear()
     }
 
-    fun getDrawable(name: String): Int{
+    fun getDrawable(name: String, context: Context): Int{
+
+
+
         return when(name){
             "floor1" -> R.drawable.floor1_complete_map
             "floor2" -> R.drawable.floor2_complete_map
             "floor3" -> R.drawable.floor3_complete_map
             "floor4" -> R.drawable.floor4_complete_map
-            "E1017" -> R.drawable.e1017
-            "E1028" -> R.drawable.e1028
-            "E1022" -> R.drawable.e1022
             "highlight_all_comp" -> R.drawable.highlight_all_comp
-            else -> -1
+
+            else -> {
+                //E2230c-02 & E2230c-04 doesn't seem to be aroom
+                val resource = context.resources.getIdentifier(name.toLowerCase(Locale.ROOT), "drawable", context.packageName)
+                return if(resource != 0){
+                    resource
+                } else{
+                    -1
+                }
+            }
         }
     }
 

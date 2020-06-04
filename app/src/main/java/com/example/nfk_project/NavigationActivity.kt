@@ -6,30 +6,21 @@ import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
-import android.content.res.Resources
-import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Handler
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.example.nfk_project.MapCreator.ImageLayer
-import com.example.nfk_project.MapCreator.MapCreator
-import com.example.nfk_project.NaigationVisuals.NavigationRepository
 import kotlinx.android.synthetic.main.activity_navigation.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import mDictionary
 import rNode
-import java.lang.Error
-import java.util.*
 import kotlin.collections.ArrayList
-import com.example.nfk_project.MapCreator.mapCreator
 import com.example.nfk_project.NaigationVisuals.navRepo
 import com.example.nfk_project.NaigationVisuals.navCreator
 
 
 class NavigationActivity : AppCompatActivity() {
-    var api: API = API()
     private val TIME_OUT =  1000 * 60 * 20 // 20 minutes
     private val TOAST_MESSAGE = "Returning home due to inactivity"
     private val RUNNABLE = Runnable {             val i = Intent(this, MainActivity::class.java)
@@ -44,16 +35,16 @@ class NavigationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
 
-        var dictionary = mDictionary()
-        var graph: Graph = initGraph()
+        val dictionary = mDictionary()
+        val graph: Graph = initGraph()
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
 
-        var imageView = findViewById<ImageView>(R.id.Nav_Map_Image_View)
-        var searchedRoom = intent.getSerializableExtra("room") as Room
-        var roomName = searchedRoom.Name
-        var textPath = getPath(roomName, graph, dictionary)
-        var firstLetter = roomName[0]
+        val imageView = findViewById<ImageView>(R.id.Nav_Map_Image_View)
+        val searchedRoom = intent.getSerializableExtra("room") as Room
+        val roomName = searchedRoom.Name
+        val textPath = getPath(roomName, graph, dictionary)
+        val firstLetter = roomName[0]
 
 
         dictionary.init(graph.getRoomNames())
@@ -74,30 +65,29 @@ class NavigationActivity : AppCompatActivity() {
 
     }
 
-    fun setImageView(firstLetter: Char, roomName: String, imageView: ImageView){
+    private fun setImageView(firstLetter: Char, roomName: String, imageView: ImageView){
         if(firstLetter != 'E' && roomName != "A4422b"){
             imageView.setImageResource(getOuterBuildingDrawable(firstLetter))
         }
         else {
-            var floorName = getFloorString(roomName)
-            navRepo.createBitMap(resources, floorName, roomName)
-            navCreator.createBitmap(navRepo.getFloor(floorName)!!) { bitmap, _, _ ->
+            val floorName = getFloorString(roomName)
+            navRepo.createBitMap(resources, floorName, roomName, this)
+            navCreator.createBitmap(navRepo.getFloor(floorName)) { bitmap, _, _ ->
                 imageView.setImageBitmap(bitmap) }
         }
     }
 
-    fun getFloorString(room: String): String{
-        var floorNr = room[1]
-        when(floorNr){
-            '1' -> return "floor1"
-            '2' -> return "floor2"
-            '3' -> return "floor3"
-            '4' -> return "floor4"
-            else -> return "floor1"
+    private fun getFloorString(room: String): String{
+        return when(room[1]){
+            '1' -> "floor1"
+            '2' -> "floor2"
+            '3' -> "floor3"
+            '4' -> "floor4"
+            else -> "floor1"
         }
     }
 
-    fun getOuterBuildingDrawable(firstLetter: Char) : Int{
+    private fun getOuterBuildingDrawable(firstLetter: Char) : Int{
         return when(firstLetter){
             'A' -> R.drawable.highlight_a_comp
             'B' -> R.drawable.highlight_b_comp
@@ -124,9 +114,8 @@ class NavigationActivity : AppCompatActivity() {
         activityManager.moveTaskToFront(taskId, 0)
     }
 
-    fun getPath(searchedFor: String, graph: Graph, dictionary: mDictionary): String{
-        var destination = dictionary.getNameOfNode(searchedFor)
-        when(destination){
+    private fun getPath(searchedFor: String, graph: Graph, dictionary: mDictionary): String{
+        when(val destination = dictionary.getNameOfNode(searchedFor)){
             "NOT_FOUND" -> return("The room number was not recognized")
             "NO_ROOM" -> return("The teacher has no room registered")
             else -> {
@@ -144,46 +133,46 @@ class NavigationActivity : AppCompatActivity() {
                         else ->  getString(R.string.not_found)
                     }
                 }
-                var navText = graph.getPath("A", destination)
-                return navText
+                return graph.getPath("A", destination)
             }
         }
     }
 
-    fun setNavigationText(roomName: String, navigation: String){
+    @SuppressLint("SetTextI18n")
+    private fun setNavigationText(roomName: String, navigation: String){
         roomTitle.text = "${resources.getString(R.string.navigation_to)} $roomName"
-        textView.text = "$navigation"
+        textView.text = navigation
     }
 
-    fun initGraph(): Graph{
-        var data: NodeData = NodeData()
-        var graph: Graph = Graph()
-        var directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
-        var positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
-        var connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
+    private fun initGraph(): Graph{
+        val data = NodeData()
+        val graph = Graph()
+        val directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
+        val positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
+        val connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
         for(node in directionNodes){
-            var nodeName = node.split(";").get(0)
-            var nodeDirs: String = node.split(";").get(1)
-            var newNode = rNode(nodeName, nodeDirs)
+            val nodeName = node.split(";")[0]
+            val nodeDirs: String = node.split(";")[1]
+            val newNode = rNode(nodeName, nodeDirs)
             graph.addRoom(newNode)
         }
         for(connection in connections){
-            var names = connection.split(" ")
+            val names = connection.split(" ")
             for(i in 1 until names.size){
-                var root = graph.getRoom(names.get(0))
-                var neighbor = graph.getRoom(names.get(i))
+                val root = graph.getRoom(names.get(0))
+                val neighbor = graph.getRoom(names.get(i))
                 if(root!=null && neighbor != null){
                     graph.setConnectionBetweenRooms(root, neighbor)
                 }
             }
         }
         for(node in positionNodes){
-            var vals = node.split(";")
-            var parentName = vals.get(0)
-            var childName = vals.get(1)
-            var position = vals.get(2)
-            var newRoom = rNode(childName, position)
-            var parentRoom = graph.getRoom(parentName)
+            val vals = node.split(";")
+            val parentName = vals[0]
+            val childName = vals[1]
+            val position = vals[2]
+            val newRoom = rNode(childName, position)
+            val parentRoom = graph.getRoom(parentName)
             graph.addRoom(newRoom)
             if(parentRoom != null)
                 graph.setConnectionBetweenRooms(parentRoom, newRoom)
