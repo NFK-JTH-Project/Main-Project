@@ -19,7 +19,7 @@
     <string name="checkbox_exits_entrances">Exits &amp; entrances</string>
 
     /* *** Other strings *** */
-    <string name="splashscreen_loading">Loading maps, this may take a while…</string>
+    <string name="splashscreen_loading">Loading maps, hold on…</string>
     <string name="name">Name:</string>
     <string name="phone">Phone</string>
     <string name="email">Email</string>
@@ -28,4 +28,5 @@
     <string name="find_office">Find Office</string>
     <string name="close_me">Close Me</string>
     <string name="navigation_to">Navigation to</string>
+  
 </resources>
