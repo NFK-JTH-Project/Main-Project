@@ -19,5 +19,5 @@
     <string name="checkbox_exits_entrances">Exits &amp; entrances</string>
 
     /* *** Other strings *** */
-    <string name="splashscreen_loading">Loading maps, this may take a while…</string>
+    <string name="splashscreen_loading">Loading maps, hold on…</string>
 </resources>
