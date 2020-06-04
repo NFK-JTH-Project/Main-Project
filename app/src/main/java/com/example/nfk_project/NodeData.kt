@@ -74,8 +74,8 @@ class NodeData(){
             "C3 B3\n" +
             "D3 B3"
     var directionNodes: String = "A;You are here.\n" +
-            "B;Take the corridor to the left.\n" +
-            "C;Go past the staircase in front of you, and take a right.\n" +
+            "B;Go into the first corridor after the entrance.\n" +
+            "C;Go past the staircase next to you, and take a right.\n" +
             "D;Go past the staircase next to you and take a left.\n" +
             "E;Follow the corridor all the way down.\n" +
             "F;Go into the first corridor on the right side.\n" +

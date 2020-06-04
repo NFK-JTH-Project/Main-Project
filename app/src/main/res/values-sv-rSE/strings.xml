@@ -29,4 +29,14 @@
     <string name="find_office">Hitta Rum</string>
     <string name="close_me">Stäng</string>
     <string name="navigation_to">Navigering till</string>
+
+    <string name="building_a">This room is in building A (principal office)</string>
+    <string name="building_b">This room is in building B, Jönköping Business School (JIBS)</string>
+    <string name="building_c">This room is in building C, Library</string>
+    <string name="buidling_d">This room is in building D, Students house</string>
+    <string name="buidling_f">This room is in building F</string>
+    <string name="building_g">This room is in building G, School of Health and Welfare</string>
+    <string name="building_h">This room is in building H, School of Education and Communication</string>
+    <string name="building_j">This room is in building J, Campus Arena</string>
+    <string name="not_found">Not found</string>
 </resources>

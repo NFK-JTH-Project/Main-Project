@@ -6,18 +6,26 @@ import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
+import android.content.res.Resources
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Handler
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import com.example.nfk_project.MapCreator.ImageLayer
+import com.example.nfk_project.MapCreator.MapCreator
+import com.example.nfk_project.NaigationVisuals.NavigationRepository
 import kotlinx.android.synthetic.main.activity_navigation.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import mDictionary
 import rNode
 import java.lang.Error
 import java.util.*
+import kotlin.collections.ArrayList
+import com.example.nfk_project.MapCreator.mapCreator
+import com.example.nfk_project.NaigationVisuals.navRepo
+import com.example.nfk_project.NaigationVisuals.navCreator
 
 
 class NavigationActivity : AppCompatActivity() {
@@ -30,18 +38,28 @@ class NavigationActivity : AppCompatActivity() {
         finish() }
     private val ACTIVITY_HANDLER = Handler()
 
+
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_navigation)
 
-        var imageView = findViewById<ImageView>(R.id.Nav_Map_Image_View)
+        var dictionary = mDictionary()
+        var graph: Graph = initGraph()
 
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+
+        var imageView = findViewById<ImageView>(R.id.Nav_Map_Image_View)
+        var searchedRoom = intent.getSerializableExtra("room") as Room
+        var roomName = searchedRoom.Name
+        var textPath = getPath(roomName, graph, dictionary)
+        var firstLetter = roomName[0]
+
+
+        dictionary.init(graph.getRoomNames())
 
         ACTIVITY_HANDLER.postDelayed(RUNNABLE, TIME_OUT.toLong())
 
-
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
         toolbar.backBtn.setOnClickListener {
@@ -50,54 +68,48 @@ class NavigationActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var dictionary = mDictionary()
-        var graph: Graph = initGraph()
-        dictionary.init(graph.getRoomNames())
 
-        var searchedRoom = intent.getSerializableExtra("room") as Room
-
-        var floor = getFloor(searchedRoom.Name)
-        imageView.setImageResource(floor)
-        setNavigationText(searchedRoom.Name, getPath(searchedRoom.Name, graph, dictionary))
+        setNavigationText(roomName, textPath)
+        setImageView(firstLetter, roomName, imageView)
 
     }
 
-    fun getFloor(floorName: String): Int{
-        val floor1 = R.drawable.floor1_complete_map
-        val floor2 = R.drawable.floor2_complete_map
-        val floor3 = R.drawable.floor3_complete_map
-        val floor4 = R.drawable.floor4_complete_map
-        val floorX = R.drawable.ju_area
-        var floorNr = 0
-        println("Floorname: $floorName")
-
-        if(floorName.get(0) != 'E'){
-            return if(floorName == "A4422b")
-                floor1
-            else
-                floorX
+    fun setImageView(firstLetter: Char, roomName: String, imageView: ImageView){
+        if(firstLetter != 'E' && roomName != "A4422b"){
+            imageView.setImageResource(getOuterBuildingDrawable(firstLetter))
         }
-
-        floorNr = try{
-            Character.getNumericValue(floorName[1])
-
-        } catch (e: Error){
-            println("wierd floor nr in getFloor/Navigation")
-            1
-        }
-        println("FloorNr = $floorNr")
-        return when(floorNr){
-            1 -> floor1
-            2 -> floor2
-            3 -> floor3
-            4 -> floor4
-            else -> {
-                println("In else returning floor 1")
-                floor1
-            }
+        else {
+            var floorName = getFloorString(roomName)
+            navRepo.createBitMap(resources, floorName, roomName)
+            navCreator.createBitmap(navRepo.getFloor(floorName)!!) { bitmap, _, _ ->
+                imageView.setImageBitmap(bitmap) }
         }
     }
 
+    fun getFloorString(room: String): String{
+        var floorNr = room[1]
+        when(floorNr){
+            '1' -> return "floor1"
+            '2' -> return "floor2"
+            '3' -> return "floor3"
+            '4' -> return "floor4"
+            else -> return "floor1"
+        }
+    }
+
+    fun getOuterBuildingDrawable(firstLetter: Char) : Int{
+        return when(firstLetter){
+            'A' -> R.drawable.highlight_a_comp
+            'B' -> R.drawable.highlight_b_comp
+            'C' -> R.drawable.highlight_c_comp
+            'D' -> R.drawable.highlight_d_comp
+            'F' -> R.drawable.highlight_f_comp
+            'G' -> R.drawable.highlight_g_comp
+            'H' -> R.drawable.highlight_h_comp
+            'J' -> R.drawable.highlight_j_comp
+            else -> R.drawable.highlight_all_comp
+        }
+    }
 
     override fun onBackPressed() {
         ACTIVITY_HANDLER.removeCallbacks(RUNNABLE)
@@ -112,7 +124,6 @@ class NavigationActivity : AppCompatActivity() {
         activityManager.moveTaskToFront(taskId, 0)
     }
 
-
     fun getPath(searchedFor: String, graph: Graph, dictionary: mDictionary): String{
         var destination = dictionary.getNameOfNode(searchedFor)
         when(destination){
@@ -122,18 +133,19 @@ class NavigationActivity : AppCompatActivity() {
                 if(searchedFor[0] != 'E'){
                     println(searchedFor[0])
                     return when(searchedFor[0]){
-                        'A' -> "This room is in building A (principal office)"
-                        'B' -> "This room is in building B, Jönköping Business School (JIBS)"
-                        'C' -> "This room is in building C, Library"
-                        'D' -> "This room is in building D, Students house"
-                        'F' -> "This room is in building F"
-                        'G' -> "This room is in building G, School of Health and Welfare"
-                        'H' -> "This room is in building H, School of Education and Communication"
-                        'J' -> "This room is in building J, Campus Arena"
-                        else ->  "Not found"
+                        'A' -> getString(R.string.building_a)
+                        'B' -> getString(R.string.building_b)
+                        'C' -> getString(R.string.building_c)
+                        'D' -> getString(R.string.buidling_d)
+                        'F' -> getString(R.string.buidling_f)
+                        'G' -> getString(R.string.building_g)
+                        'H' -> getString(R.string.building_h)
+                        'J' -> getString(R.string.building_j)
+                        else ->  getString(R.string.not_found)
                     }
                 }
-                return(graph.getPath("A", destination))
+                var navText = graph.getPath("A", destination)
+                return navText
             }
         }
     }
@@ -142,6 +154,7 @@ class NavigationActivity : AppCompatActivity() {
         roomTitle.text = "${resources.getString(R.string.navigation_to)} $roomName"
         textView.text = "$navigation"
     }
+
     fun initGraph(): Graph{
         var data: NodeData = NodeData()
         var graph: Graph = Graph()

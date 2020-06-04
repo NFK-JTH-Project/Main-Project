@@ -24,6 +24,7 @@
             >
         </ImageView>
 
+
         <RelativeLayout
             android:id="@+id/navigationTexts"
             android:layout_width="350dp"
