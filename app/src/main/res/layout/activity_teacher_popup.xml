@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="29dp"
+                android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp">
 
                 <ImageView
@@ -36,8 +36,8 @@
                     android:layout_height="125dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginRight="16dp" />
+
+                    android:layout_margin="16dp"/>
 
                 <ProgressBar
                     android:id="@+id/progressBar"
@@ -59,7 +59,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="Name: "
+                    android:text="@string/name"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -70,7 +70,7 @@
                     android:layout_below="@id/teacherName"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="Phone: "
+                    android:text="@string/phone"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -81,7 +81,7 @@
                     android:layout_below="@id/teacherPhone"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="Email: "
+                    android:text="@string/email"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -92,7 +92,7 @@
                     android:layout_below="@id/teacherEmail"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="Office: "
+                    android:text="@string/office"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -103,7 +103,7 @@
                     android:layout_below="@id/teacherOffice"
                     android:layout_marginTop="16dp"
                     android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="Signature: "
+                    android:text="@string/signature"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -178,7 +178,7 @@
                 android:id="@+id/button_popup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Close Me"
+                android:text="@string/close_me"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
                 android:textColor="@color/cardview_light_background"
@@ -191,7 +191,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
-                android:text="Find Office"
+                android:text="@string/find_office"
                 android:textColor="@color/cardview_light_background"
                 android:backgroundTint="@color/main_palette_link"
                 />

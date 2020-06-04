@@ -1,17 +1,23 @@
 package com.example.nfk_project
 
+import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.graphics.Bitmap
+import android.hardware.input.InputManager
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
+import android.preference.PreferenceManager
 import android.transition.TransitionManager
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
+import android.view.inputmethod.InputMethod
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +31,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
+import java.util.*
 
 
 open class MainActivity : AppCompatActivity() {
@@ -38,17 +45,27 @@ open class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
+        if(intent.hasExtra("inactivity_message")) {
+            var inactivityMessage = intent.getStringExtra("inactivity_message")
+            Toast.makeText(this, inactivityMessage, Toast.LENGTH_LONG).show()
+            println("Toasted")
+        }
+
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
 
+
         britainBtn.setOnClickListener {
             britainBtn.alpha = 0.3F
             swedenBtn.alpha = 1F
+
+
         }
         swedenBtn.setOnClickListener {
             swedenBtn.alpha = 0.3F
             britainBtn.alpha = 1F
+
         }
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
@@ -90,6 +107,8 @@ open class MainActivity : AppCompatActivity() {
         val adapter = ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1, suggestions)
         search_bar.setAdapter(adapter)
 
+
+
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
@@ -103,7 +122,7 @@ open class MainActivity : AppCompatActivity() {
             }else{
                 val teacher = api.allTeachers[selectedItem]
                 if (teacher != null) {
-
+                    closeKeyBoard()
                     createPopup(teacher)
                 }
             }
@@ -114,6 +133,12 @@ open class MainActivity : AppCompatActivity() {
     //disable backbutton so you can't leave the application
     override fun onBackPressed() {
     }
+
+    fun closeKeyBoard(){
+        val inputManager:InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputManager.hideSoftInputFromWindow(currentFocus?.windowToken, InputMethodManager.SHOW_FORCED)
+    }
+
     //Make the homebutton always go to main acitvity
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
@@ -196,11 +221,6 @@ open class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Set a dismiss listener for popup window
-        popupWindow.setOnDismissListener {
-            Toast.makeText(applicationContext,"Popup closed",Toast.LENGTH_SHORT).show()
-        }
-
         // Finally, show the popup window on app
         TransitionManager.beginDelayedTransition(root_layout)
         popupWindow.showAtLocation(
@@ -214,8 +234,11 @@ open class MainActivity : AppCompatActivity() {
                 popupWindow.dismiss()
                 popUpState = false
             }
-        }, 5 * 1000.toLong())
+        }, 2 * 60 * 1000.toLong())
     }
+
+
+
 }
 
 

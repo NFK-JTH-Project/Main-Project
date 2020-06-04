@@ -20,6 +20,12 @@ class mDictionary(){
         return getNameOfClosestNode(searchItem)
     }
     fun getNameOfClosestNode(searchItem: String):String{
+        when(searchItem){
+            "E4106" -> return "DA_VINCI"
+            "E1423" -> return "FAGERHULTSAULAN"
+            "E1405" -> return "GJUTERISALEN"
+            "E3105D" -> return "LEONARDO"
+        }
         var nameOfBlock = searchItem.substring(0, 3).toUpperCase()
 
         when(nameOfBlock){
@@ -28,6 +34,9 @@ class mDictionary(){
         }
     }
     fun getNameOfOuterBuilding(searchItem: String): String{
+        if(searchItem == "A4422B"){
+            return "GALLILEO"
+        }
         var firstLetter = searchItem.get(0)
 
         when(firstLetter){

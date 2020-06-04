@@ -7,6 +7,12 @@
     <color name="main_palette_accent">#D81B60</color>
     <color name="main_palette_link">#00a8e8</color>
     <color name="main_palette_allert">#e01e37</color>
+    <color name="blue_grey_light">#649998</color>
+    <color name="light_grey">#E1E1E1</color>
+    <color name="wing_one">#F54343</color>
+    <color name="wing_two">#65D64C</color>
+    <color name="wing_three">#FC5CC6</color>
+    <color name="wing_four">#6B82E8</color>
 
 
 </resources>
