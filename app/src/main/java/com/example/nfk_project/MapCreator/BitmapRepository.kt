@@ -203,6 +203,10 @@ class BitmapRepository {
 
         /* *** *** *** *** *** CAMPUS *** *** *** *** *** */
 
+        bitmap = BitmapFactory.decodeResource(res, R.drawable.floor4_layer_top)
+        layer = ImageLayer(bitmap, true, MapKeyword.f4Top)
+        floor4.add(layer)
+
         finished(true)
     }
 
