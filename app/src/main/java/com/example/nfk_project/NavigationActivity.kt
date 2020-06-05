@@ -1,23 +1,26 @@
 package com.example.nfk_project
 
-import Graph
 import NodeData
 import android.annotation.SuppressLint
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
+import android.content.res.Resources
 import android.os.Bundle
 import android.os.Handler
+import android.util.DisplayMetrics
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import kotlinx.android.synthetic.main.activity_navigation.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import mDictionary
-import rNode
 import kotlin.collections.ArrayList
 import com.example.nfk_project.NaigationVisuals.navRepo
 import com.example.nfk_project.NaigationVisuals.navCreator
+import kotlinx.android.synthetic.main.toolbar.*
+import java.util.*
 
 
 class NavigationActivity : AppCompatActivity() {
@@ -28,6 +31,9 @@ class NavigationActivity : AppCompatActivity() {
         startActivity(i)
         finish() }
     private val ACTIVITY_HANDLER = Handler()
+    val ENGLISH = "en"
+    val SWEDISH = "sv"
+    var SEARCH_ITEM = Room("")
 
 
     @SuppressLint("SetTextI18n")
@@ -37,17 +43,21 @@ class NavigationActivity : AppCompatActivity() {
 
         val dictionary = mDictionary()
         val graph: Graph = initGraph()
+        dictionary.init(graph.getRoomNames())
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
 
         val imageView = findViewById<ImageView>(R.id.Nav_Map_Image_View)
         val searchedRoom = intent.getSerializableExtra("room") as Room
+        SEARCH_ITEM = searchedRoom
         val roomName = searchedRoom.Name
         val textPath = getPath(roomName, graph, dictionary)
         val firstLetter = roomName[0]
 
 
-        dictionary.init(graph.getRoomNames())
+
+        initBtns()
+        setLanguageBtn()
 
         ACTIVITY_HANDLER.postDelayed(RUNNABLE, TIME_OUT.toLong())
 
@@ -133,6 +143,7 @@ class NavigationActivity : AppCompatActivity() {
                         else ->  getString(R.string.not_found)
                     }
                 }
+                println("searched for: $destination")
                 return graph.getPath("A", destination)
             }
         }
@@ -143,13 +154,27 @@ class NavigationActivity : AppCompatActivity() {
         roomTitle.text = "${resources.getString(R.string.navigation_to)} $roomName"
         textView.text = navigation
     }
+    
 
-    private fun initGraph(): Graph{
-        val data = NodeData()
+    private fun initGraph(): Graph {
+        var directionString: String
+        var positionString: String
+        var connectionString: String
+
+        if(langIsEnglish()){
+            directionString = NodeData().directionNodes
+            positionString = NodeData().positionNodes
+            connectionString = NodeData().connections
+        }else {
+            directionString = NodeData_SE().directionNodes
+            positionString = NodeData_SE().positionNodes
+            connectionString = NodeData_SE().connections
+        }
+        
         val graph = Graph()
-        val directionNodes: ArrayList<String> = data.directionNodes.split("\n") as ArrayList<String>
-        val positionNodes: ArrayList<String> = data.positionNodes.split("\n") as ArrayList<String>
-        val connections: ArrayList<String> = data.connections.split("\n") as ArrayList<String>
+        val directionNodes: ArrayList<String> = directionString.split("\n") as ArrayList<String>
+        val positionNodes: ArrayList<String> = positionString.split("\n") as ArrayList<String>
+        val connections: ArrayList<String> = connectionString.split("\n") as ArrayList<String>
         for(node in directionNodes){
             val nodeName = node.split(";")[0]
             val nodeDirs: String = node.split(";")[1]
@@ -179,5 +204,59 @@ class NavigationActivity : AppCompatActivity() {
         }
         return graph
     }
+
+    fun langIsEnglish() : Boolean{
+        return resources.configuration.locale.toString() == "en"
+    }
+
+    fun initBtns(){
+        var lang = resources.configuration.locale.toString()
+        if(lang == ENGLISH){
+            britainBtn.alpha = 0.3F
+            swedenBtn.alpha = 1F
+        }
+        else{
+            swedenBtn.alpha = 0.3F
+            britainBtn.alpha = 1F
+        }
+    }
+
+
+    fun setLanguageBtn(){
+        var currentLanguage = resources.configuration.locale.toString()
+        println("locales: $currentLanguage")
+        britainBtn.setOnClickListener {
+            if(currentLanguage != ENGLISH) {
+                britainBtn.alpha = 0.3F
+                swedenBtn.alpha = 1F
+                changeLanguage(ENGLISH)
+            }
+        }
+
+        swedenBtn.setOnClickListener {
+            if(currentLanguage != SWEDISH) {
+                swedenBtn.alpha = 0.3F
+                britainBtn.alpha = 1F
+                changeLanguage(SWEDISH)
+            }
+        }
+    }
+
+
+    private fun changeLanguage(language: String) {
+        val myLocale = Locale(language)
+        val res: Resources = resources
+        val dm: DisplayMetrics = res.displayMetrics
+        val conf: Configuration = res.configuration
+        conf.locale = myLocale
+        res.updateConfiguration(conf, dm)
+        println("so far so good")
+        val refresh = Intent(this, NavigationActivity::class.java)
+        refresh.putExtra("room", SEARCH_ITEM)
+        finish()
+        startActivity(refresh)
+
+    }
+
 }
 

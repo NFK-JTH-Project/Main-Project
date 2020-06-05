@@ -12,7 +12,7 @@ class NodeData(){
             "F;E1219;The room will be the first one on the right.\n" +
             "F;E1217;The room will be the on the right side further down the hall.\n" +
             "F;E12XX;The room will be in the hallway.\n" +
-            "E;GJUTERISALEN;The room will be on the left side.\n" +
+            "E;E1405;The room will be on the left side.\n" +
             "E;FAGERHULTSAULAN;The room will be on the right side.\n" +
             "E;E14XX;The room should be on the left or right side.\n" +
             "G;E1419;The room will be in the far right corner.\n" +

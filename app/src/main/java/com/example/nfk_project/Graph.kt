@@ -1,3 +1,5 @@
+package com.example.nfk_project
+
 import java.io.Serializable
 import java.util.*
 import kotlin.collections.ArrayList
@@ -5,34 +7,30 @@ import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
 
-class rNode(name: String, directions: String): Serializable{
-    var name: String = name
-    var directions: String = directions
+class rNode(var name: String, var directions: String): Serializable{
     var adjList: LinkedList<rNode> = LinkedList()
 
     override fun toString(): String {
-        return "${name}"
+        return name
     }
 }
 class Graph: Serializable{
-    var graph: HashMap<String, rNode> = HashMap()
-    var nodePath: ArrayList<rNode> = ArrayList() // Empty this after returning ?
+    private var graph: HashMap<String, rNode> = HashMap()
+    private var nodePath: ArrayList<rNode> = ArrayList() // Empty this after returning ?
 
     fun getRoom(name: String): rNode? {
-        return graph.get(name)
+        return graph[name]
     }
     fun addRoom(room: rNode){
         if(!graph.contains(room.name))
-            graph.put(room.name, room)
+            graph[room.name] = room
     }
     fun setConnectionBetweenRooms(room1: rNode, room2: rNode){
-        if (room1 != null && room2 != null){
-            if(!room1.adjList.contains(room2)){
-                room1.adjList.push(room2)
-            }
-            if(!room2.adjList.contains(room1)) {
-                room2.adjList.add(room1)
-            }
+        if(!room1.adjList.contains(room2)){
+            room1.adjList.push(room2)
+        }
+        if(!room2.adjList.contains(room1)) {
+            room2.adjList.add(room1)
         }
     }
     fun getRoomNames(): ArrayList<String>{
@@ -45,21 +43,22 @@ class Graph: Serializable{
 
     //Change name
     fun getPath(start: String, end: String):String{
-        var visited: HashSet<String> = HashSet()
+        val visited: HashSet<String> = HashSet()
         var directions = ""
-        var start: rNode = getRoom(start)!!
-        var destination: rNode = getRoom(end)!!
+        val start: rNode = getRoom(start)!!
+        val destination: rNode = getRoom(end)!!
+
 
         nodePath.clear()
 
         if(findPathDFS(start, destination, visited)){
-            var roomsOnPath = nodePath.reversed()
+            val roomsOnPath = nodePath.reversed()
 
-            var iterator = roomsOnPath.size
+            val iterator = roomsOnPath.size
 
             for(i in 0 until iterator){
-                directions+="Step${i+1}: " + roomsOnPath[i].directions
-                directions+="\n"
+                directions+="${i+1}. " + roomsOnPath[i].directions
+                directions+="\n\n"
             }
         }
         else{
@@ -68,7 +67,7 @@ class Graph: Serializable{
         return directions
     }
     //Change name
-    fun findPathDFS(start: rNode, destination: rNode, visited: HashSet<String>): Boolean {
+    private fun findPathDFS(start: rNode, destination: rNode, visited: HashSet<String>): Boolean {
         if(visited.contains(start.name)){
             return false
         }
@@ -89,7 +88,7 @@ class Graph: Serializable{
         for(key in graph.keys){
             s+= key
             s+= "-->"
-            s+= graph.get(key)?.adjList
+            s+= graph[key]?.adjList
             s+= "\n"
         }
         return s

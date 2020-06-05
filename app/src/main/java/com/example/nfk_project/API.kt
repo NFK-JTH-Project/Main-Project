@@ -161,6 +161,7 @@ class API {
 
     }
 
+    //This function creates rooms that have specific names
     fun createRoomWithNames(){
         val fagerhultsAulan = Room("E1423")
         val gjuterisalen = Room("E1405")
@@ -172,6 +173,16 @@ class API {
         val lewinsalen = Room("D2419")
         val solon = Room("A4301")
         val theano = Room("B2225")
+        val forumhumanum = Room("Ge308")
+        val juAulan = Room("He102")
+        val jpAulan = Room("B1024")
+        val kurtJAulan = Room("Gb306")
+        val munksjoaulan = Room("B1033")
+        val sparbanksaulan = Room("B1014")
+        val tvetasalen = Room("Hc113")
+        val vistasalen = Room("Hb116")
+        val vastbosalen = Room("Hb220")
+        val ostbosalen = Room("Hc218")
 
         list.add("Fagerhults Aulan")
         list.add("Gjuteri Salen")
@@ -183,6 +194,16 @@ class API {
         list.add("Lewinsalen")
         list.add("Solon")
         list.add("Theano")
+        list.add("Forum Humanum")
+        list.add("JU Aulan")
+        list.add("JP Aulan")
+        list.add("Kurt Johansson-aulan")
+        list.add("Munksjöaulan")
+        list.add("Sparbanksaulan")
+        list.add("Tvetasalen")
+        list.add("Vistasalen")
+        list.add("Västbosalen")
+        list.add("Östbosalen")
 
         allRooms["Fagerhults Aulan"] = fagerhultsAulan
         allRooms["Gjuteri Salen"] = gjuterisalen
@@ -194,7 +215,16 @@ class API {
         allRooms["Lewinsalen"] = lewinsalen
         allRooms["Solon"] = solon
         allRooms["Theano"] = theano
-
+        allRooms["Forum Humanum"] = forumhumanum
+        allRooms["JU Aulan"] = juAulan
+        allRooms["JP Aulan"] = jpAulan
+        allRooms["Kurt Johansson-aulan"] = kurtJAulan
+        allRooms["Munksjöaulan"] = munksjoaulan
+        allRooms["Sparbanksaulan"] = sparbanksaulan
+        allRooms["Tvetasalen"] = tvetasalen
+        allRooms["Vistasalen"] = vistasalen
+        allRooms["Västbosalen"] = vastbosalen
+        allRooms["Östbosalen"] = ostbosalen
 
 
     }
