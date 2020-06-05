@@ -34,7 +34,7 @@ class NodeData_SE{
             "E1;E2432;Rummet är det andra till höger.\n" +
             "E1;E24XX;Rummet ligger i den vänstra korridoren.\n" +
             "F1;E2426;Rummet ligger på höger sida.\n" +
-            "A2;LEONARDO;RUmmet är det första till höger i huvudkorridoren.\n" +
+            "A2;LEONARDO;Rummet är det första till höger i huvudkorridoren.\n" +
             "A2;E31XX;Rummet ligger i korridoren till vänster i den första vingen.\n" +
             "B2;E3205;Rummet är det första till vänster i huvudkorridoren.\n" +
             "B2;E3231;Rummet är det första till höger i korridoren i den andra vingen.\n" +
