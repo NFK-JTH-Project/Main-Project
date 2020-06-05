@@ -1,10 +1,18 @@
+import android.os.Parcel
+import android.os.Parcelable
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 import kotlin.contracts.contract
 
-class mDictionary(){
+class mDictionary() : Parcelable {
     var dictionary: HashMap<String, String> = HashMap()
 
+
+
     fun getNameOfNode(searched: String): String{
-        var searchItem = searched.toUpperCase()
+        val searchItem = searched.toUpperCase(Locale.ROOT)
+        println("Node name: $searchItem")
         if(searched == ""){
             return "NO_ROOM"
         }
@@ -23,56 +31,57 @@ class mDictionary(){
         when(searchItem){
             "E4106" -> return "DA_VINCI"
             "E1423" -> return "FAGERHULTSAULAN"
-            "E1405" -> return "GJUTERISALEN"
+            //"E1405" -> return "GJUTERISALEN"
             "E3105D" -> return "LEONARDO"
         }
-        var nameOfBlock = searchItem.substring(0, 3).toUpperCase()
 
-        when(nameOfBlock){
-            "E10" -> return "E1020"
-            else -> return nameOfBlock + "XX"
+        return when(val nameOfBlock = searchItem.substring(0, 3).toUpperCase(Locale.ROOT)){
+            "E10" -> "E1020"
+            else -> nameOfBlock + "XX"
         }
     }
-    fun getNameOfOuterBuilding(searchItem: String): String{
+    private fun getNameOfOuterBuilding(searchItem: String): String{
         if(searchItem == "A4422B"){
             return "GALLILEO"
         }
-        var firstLetter = searchItem.get(0)
 
-        when(firstLetter){
-            'A' -> return "Rektorskansli"
-            'B' -> return "JIBS"
-            'C' -> return "Bibliotek"
-            'D' -> return "Studenternas Hus"
-            'F' -> return "Mariedal"
-            'G' -> return "Hälso"
-            'H' -> return "HLK"
-            'J' -> return "Campus"
-            else -> return "NOT_FOUND"
+        return when(searchItem[0]){
+            'A' -> "Rektorskansli"
+            'B' -> "JIBS"
+            'C' -> "Bibliotek"
+            'D' -> "Studenternas Hus"
+            'F' -> "Mariedal"
+            'G' -> "Hälso"
+            'H' -> "HLK"
+            'J' -> "Campus"
+            else -> "NOT_FOUND"
         }
     }
 
     fun init(nodeNames: ArrayList<String>){
-        var letters = "ABCDFGHJ"
+        val letters = "ABCDFGHJ"
         for (l in letters){
             dictionary.put(l.toString(), "")
         }
-        for(n in nodeNames){
-            dictionary.put(n, "")
+        for(n in nodeNames) dictionary[n] = ""
+    }
+
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<mDictionary> {
+        override fun createFromParcel(parcel: Parcel): mDictionary {
+            return mDictionary()
+        }
+
+        override fun newArray(size: Int): Array<mDictionary?> {
+            return arrayOfNulls(size)
         }
     }
-    fun map(room: String){
-        var key: String = room.get(0).toString().toUpperCase()
-        if(key != "E"){
-            dictionary.put(key, room)
-        }
-        if(dictionary.containsKey(room)) {
-            if (!dictionary.containsValue(room))
-                dictionary.put(key, room)
-        }
-        else {
-            key = room.substring(0, 3)
-            dictionary.put(key, room)
-        }
-    }
+
 }

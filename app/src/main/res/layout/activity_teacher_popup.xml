@@ -8,8 +8,8 @@
     >
 
     <androidx.cardview.widget.CardView
-        android:layout_width="650dp"
-        android:layout_height="310dp"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
         android:elevation="10dp"
         app:cardBackgroundColor="@color/cardview_light_background"
         app:cardElevation="5dp"
@@ -36,8 +36,54 @@
                     android:layout_height="125dp"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentTop="true"
-
                     android:layout_margin="16dp"/>
+
+                <ImageView
+                    android:id="@+id/phoneIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/emailIcon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_local_phone_black_24dp"
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/teacher_Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/phoneIcon"
+                    android:layout_below="@+id/teacher_Email"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="phone"
+                    android:textSize="17sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/emailIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teacher_Photo"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_email_black_24dp"
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/teacher_Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/teacher_Photo"
+                    android:text="Email "
+                    android:textSize="17sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/emailIcon"
+                    android:layout_marginTop="10dp"
+                    />
+
 
                 <ProgressBar
                     android:id="@+id/progressBar"
@@ -52,124 +98,63 @@
                     android:scaleY="0.5"
                     android:visibility="gone" />
 
-                <TextView
-                    android:id="@+id/teacherName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="@string/name"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+               <TextView
+                   android:id="@+id/teacher_Name"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@+id/teacher_Photo"
+                   android:layout_marginTop="16dp"
+                   android:text=""
+                   android:layout_marginLeft="16dp"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   ></TextView>
 
                 <TextView
-                    android:id="@+id/teacherPhone"
+                    android:id="@+id/teacher_signature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/teacherName"
-                    android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="@string/phone"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/teacherEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacherPhone"
-                    android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="@string/email"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/teacherOffice"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacherEmail"
-                    android:layout_marginTop="16dp"
-                    android:layout_toRightOf="@id/teacher_Photo"
-                    android:text="@string/office"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/teacherSignature"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacherOffice"
-                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/teacher_Name"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="13dp"
                     android:layout_toRightOf="@id/teacher_Photo"
                     android:text="@string/signature"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/dynamic"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/Static"
-
-                >
+                    android:textSize="17sp" />
 
                 <TextView
-                    android:id="@+id/teacher_Name"
+                    android:id="@+id/teacher_office"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="22dp"
-                    android:text="Name: "
-                    android:textSize="20sp"
-
-                    />
-
-                <TextView
-                    android:id="@+id/teacher_Phone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacher_Name"
-                    android:layout_marginTop="23dp"
-                    android:text="Phone: "
-                    android:textSize="20sp"
-
-                    />
-                <TextView
-                    android:id="@+id/teacher_Email"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacher_Phone"
-                    android:layout_marginTop="23dp"
-                    android:text="Email: "
-                    android:textSize="20sp"
-
-                    />
-
-                <TextView
-                    android:id="@+id/teacher_Office"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/teacher_Email"
-                    android:layout_marginTop="23dp"
-                    android:text="Office: "
-                    android:textSize="20sp"
-
+                    android:text="@string/office"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/teacher_signature"
+                    android:layout_toRightOf="@id/teacher_Photo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="16dp"
                     />
 
                 <TextView
                     android:id="@+id/teacher_Signature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/teacher_Office"
-                    android:layout_marginTop="23dp"
-                    android:text="Signature: "
-                    android:textSize="20sp"
+                    android:text="@string/signature"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/teacher_Name"
+                    android:layout_toRightOf="@id/teacher_signature"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    />
 
+                <TextView
+                    android:id="@+id/teacher_Office"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/office"
+                    android:textSize="17sp"
+                    android:layout_below="@+id/teacher_signature"
+                    android:layout_toRightOf="@id/teacher_signature"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
                     />
 
             </RelativeLayout>
@@ -196,10 +181,7 @@
                 android:backgroundTint="@color/main_palette_link"
                 />
 
-
         </RelativeLayout>
-
-
 
     </androidx.cardview.widget.CardView>
 

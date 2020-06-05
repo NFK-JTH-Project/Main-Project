@@ -1,22 +1,20 @@
 package com.example.nfk_project
 
-import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.content.res.Resources
 import android.graphics.Bitmap
-import android.hardware.input.InputManager
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
-import android.preference.PreferenceManager
 import android.transition.TransitionManager
+import android.util.DisplayMetrics
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
-import android.view.inputmethod.InputMethod
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.annotation.RequiresApi
@@ -36,9 +34,12 @@ import java.util.*
 
 open class MainActivity : AppCompatActivity() {
     var api: API = API()
+    val ENGLISH = "en"
+    val SWEDISH = "sv"
 
     @RequiresApi(Build.VERSION_CODES.O)
     var suggestions = api.fetchStaffFromApi()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,25 +49,16 @@ open class MainActivity : AppCompatActivity() {
         if(intent.hasExtra("inactivity_message")) {
             var inactivityMessage = intent.getStringExtra("inactivity_message")
             Toast.makeText(this, inactivityMessage, Toast.LENGTH_LONG).show()
-            println("Toasted")
         }
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
 
+        //Contains all code for changing languages
+        initBtns()
+        setLanguageBtn()
 
-        britainBtn.setOnClickListener {
-            britainBtn.alpha = 0.3F
-            swedenBtn.alpha = 1F
-
-
-        }
-        swedenBtn.setOnClickListener {
-            swedenBtn.alpha = 0.3F
-            britainBtn.alpha = 1F
-
-        }
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
@@ -113,7 +105,6 @@ open class MainActivity : AppCompatActivity() {
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
-            println(api.allRooms[selectedItem])
 
             if(api.allRooms.containsKey(selectedItem)){
                 val intent = Intent(this, NavigationActivity::class.java)
@@ -129,6 +120,7 @@ open class MainActivity : AppCompatActivity() {
         }
 
     }
+
 
     //disable backbutton so you can't leave the application
     override fun onBackPressed() {
@@ -188,6 +180,16 @@ open class MainActivity : AppCompatActivity() {
 
         if(teacher.RoomName == "") {
             buttonFindTeacher.visibility = View.GONE
+            office.text = "-"
+        }
+        if(teacher.Mobile == ""){
+            phone.text = "-"
+        }
+        if(teacher.Signature == ""){
+            signature.text = "-"
+        }
+        if(teacher.Mail == ""){
+            email.text = "-"
         }
 
         if(teacher.Photo){
@@ -237,7 +239,55 @@ open class MainActivity : AppCompatActivity() {
         }, 2 * 60 * 1000.toLong())
     }
 
+    fun initBtns(){
+        var lang = resources.configuration.locale.toString()
+        if(lang == ENGLISH){
+            britainBtn.alpha = 0.3F
+            swedenBtn.alpha = 1F
+        }
+        else{
+            swedenBtn.alpha = 0.3F
+            britainBtn.alpha = 1F
+        }
+    }
 
+
+    fun setLanguageBtn(){
+        var currentLanguage = resources.configuration.locale.toString()
+        println("locales: $currentLanguage")
+
+        britainBtn.setOnClickListener {
+            if(currentLanguage != ENGLISH) {
+                println("eng btn clicked")
+                britainBtn.alpha = 0.3F
+                swedenBtn.alpha = 1F
+                changeLanguage(ENGLISH)
+            }
+        }
+
+        swedenBtn.setOnClickListener {
+            if(currentLanguage != SWEDISH && currentLanguage != "sv_SE") {
+                println("sweBtnClicked")
+                swedenBtn.alpha = 0.3F
+                britainBtn.alpha = 1F
+                changeLanguage(SWEDISH)
+            }
+        }
+    }
+
+
+    private fun changeLanguage(language: String) {
+        val myLocale = Locale(language)
+        val res: Resources = resources
+        val dm: DisplayMetrics = res.displayMetrics
+        val conf: Configuration = res.configuration
+        conf.setLocale(myLocale)
+        res.updateConfiguration(conf, dm)
+
+        val refresh = Intent(this, MainActivity::class.java)
+        finish()
+        startActivity(refresh)
+    }
 
 }
 

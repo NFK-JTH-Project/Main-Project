@@ -12,7 +12,7 @@ class NodeData(){
             "F;E1219;The room will be the first one on the right.\n" +
             "F;E1217;The room will be the on the right side further down the hall.\n" +
             "F;E12XX;The room will be in the hallway.\n" +
-            "E;GJUTERISALEN;The room will be on the left side.\n" +
+            "E;E1405;The room will be on the left side.\n" +
             "E;FAGERHULTSAULAN;The room will be on the right side.\n" +
             "E;E14XX;The room should be on the left or right side.\n" +
             "G;E1419;The room will be in the far right corner.\n" +
@@ -74,8 +74,8 @@ class NodeData(){
             "C3 B3\n" +
             "D3 B3"
     var directionNodes: String = "A;You are here.\n" +
-            "B;Take the corridor to the left.\n" +
-            "C;Go past the staircase in front of you, and take a right.\n" +
+            "B;Go into the first corridor after the entrance.\n" +
+            "C;Go past the staircase next to you, and take a right.\n" +
             "D;Go past the staircase next to you and take a left.\n" +
             "E;Follow the corridor all the way down.\n" +
             "F;Go into the first corridor on the right side.\n" +
