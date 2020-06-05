@@ -39,8 +39,6 @@ class Floor2Fragment : Fragment() {
     private lateinit var root: View
     private lateinit var map: PhotoView
     private lateinit var toilets: CheckBox
-    private lateinit var stairs: CheckBox
-    private lateinit var rooms: CheckBox
     private lateinit var checkboxLayout: TableLayout
     private lateinit var animRaise: Animation
     private lateinit var animHide: Animation
@@ -99,18 +97,24 @@ class Floor2Fragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onResume() {
+        resetVisibilityOfLayers()
+        updateMapOnScreen()
+        super.onResume()
+    }
+
     private fun initView() {
         mainLayout = root.findViewById(R.id.constraintlayout)
 
         map = root.findViewById(R.id.imageView)
         toilets = root.findViewById(R.id.toiletscheckbox)
-        stairs = root.findViewById(R.id.stairselevatorscheckbox)
-        rooms = root.findViewById(R.id.roomscheckbox)
         checkboxLayout = root.findViewById(R.id.checkboxlayout)
+    }
+
+    private fun resetVisibilityOfLayers() {
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f2Wc, true)
 
         toilets.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f2Wc }!!.isVisible
-        stairs.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f2Stairs }!!.isVisible
-        rooms.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f2Rooms }!!.isVisible
     }
 
     private fun initAnimations() {
@@ -134,14 +138,6 @@ class Floor2Fragment : Fragment() {
     private fun initOnClickListeners() {
         toilets.setOnCheckedChangeListener { _, isChecked->
             onCheckboxClicked(MapKeyword.f2Wc, isChecked)
-        }
-
-        stairs.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f2Stairs, isChecked)
-        }
-
-        rooms.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f2Rooms, isChecked)
         }
     }
 

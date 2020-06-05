@@ -41,60 +41,8 @@
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/checkbox_you_are_here"
-                android:id="@+id/youareherecheckbox"
-                android:checked="true">
-            </CheckBox>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="0.4">
-            </Space>
-
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/checkbox_rooms"
-                android:id="@+id/roomscheckbox"
-                android:checked="true">
-            </CheckBox>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="0.4">
-            </Space>
-
-            <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/checkbox_vending_machines"
                 android:id="@+id/vendingmachinescheckbox"
-                android:checked="true">
-            </CheckBox>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="1">
-            </Space>
-
-        </TableRow>
-
-        <TableRow>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_weight="1">
-            </Space>
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/checkbox_stairs_elevators"
-                android:id="@+id/stairselevatorscheckbox"
                 android:checked="true">
             </CheckBox>
 

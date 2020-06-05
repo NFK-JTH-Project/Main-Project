@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor4_fragment.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor4_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_base.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_rooms.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_all_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_all_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_h_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_h_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_rooms.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_e_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_e_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_rooms.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_base.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_complete_map.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_show_checkboxes.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\anim\\anim_show_checkboxes.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_rooms.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_base.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_d_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_d_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_you_are_here.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_you_are_here.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_b_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_b_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\menu_search_view.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\menu\\search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jth_logo_compressed.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\jth_logo_compressed.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ju_area.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-v24\\ju_area.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_boarder.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\black_boarder.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_teacher_popup.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_teacher_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_exits.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_top.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_vending_machines.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_vending_machines.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor2_fragment.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor2_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_vending_machines.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_vending_machines.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_top.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_exits.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_arrow_back_black_24dp.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_j_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_j_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_britain.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\britain.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_image_available.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\no_image_available.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_top.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_f_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_f_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_complete_map.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sweden.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\sweden.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_g_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_g_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor3_fragment.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor3_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor1_fragment.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor1_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_base.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_entrances_exits.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_entrances_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_complete_map.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_a_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_a_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_hide_checkboxes.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\anim\\anim_hide_checkboxes.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_wc.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_wc.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_top.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_complete_map.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_wc.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_wc.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_c_comp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_c_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+    }
+]

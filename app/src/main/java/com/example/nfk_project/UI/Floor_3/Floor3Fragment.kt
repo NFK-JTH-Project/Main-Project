@@ -39,9 +39,7 @@ class Floor3Fragment : Fragment() {
     private lateinit var root: View
     private lateinit var map: PhotoView
     private lateinit var toilets: CheckBox
-    private lateinit var stairs: CheckBox
     private lateinit var exits: CheckBox
-    private lateinit var rooms: CheckBox
     private lateinit var vending: CheckBox
     private lateinit var checkboxLayout: TableLayout
     private lateinit var animRaise: Animation
@@ -101,21 +99,29 @@ class Floor3Fragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onResume() {
+        resetVisibilityOfLayers()
+        updateMapOnScreen()
+        super.onResume()
+    }
+
     private fun initView() {
         mainLayout = root.findViewById(R.id.constraintlayout)
 
         map = root.findViewById(R.id.imageView)
         toilets = root.findViewById(R.id.toiletscheckbox)
-        stairs = root.findViewById(R.id.stairselevatorscheckbox)
         exits = root.findViewById(R.id.exitsentrancescheckbox)
-        rooms = root.findViewById(R.id.roomscheckbox)
         vending = root.findViewById(R.id.vendingmachinescheckbox)
         checkboxLayout = root.findViewById(R.id.checkboxlayout)
+    }
+
+    private fun resetVisibilityOfLayers() {
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f3Wc, true)
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f3Exits, true)
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f3Vending, true)
 
         toilets.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f3Wc }!!.isVisible
-        stairs.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f3Stairs }!!.isVisible
         exits.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f3Exits }!!.isVisible
-        rooms.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f3Rooms }!!.isVisible
         vending.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f3Vending }!!.isVisible
     }
 
@@ -142,16 +148,8 @@ class Floor3Fragment : Fragment() {
             onCheckboxClicked(MapKeyword.f3Wc, isChecked)
         }
 
-        stairs.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f3Stairs, isChecked)
-        }
-
         exits.setOnCheckedChangeListener { _, isChecked->
             onCheckboxClicked(MapKeyword.f3Exits, isChecked)
-        }
-
-        rooms.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f3Rooms, isChecked)
         }
 
         vending.setOnCheckedChangeListener { _, isChecked->

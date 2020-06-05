@@ -39,9 +39,7 @@ class Floor4Fragment : Fragment() {
     private lateinit var root: View
     private lateinit var map: PhotoView
     private lateinit var toilets: CheckBox
-    private lateinit var stairs: CheckBox
     private lateinit var exits: CheckBox
-    private lateinit var rooms: CheckBox
     private lateinit var checkboxLayout: TableLayout
     private lateinit var animRaise: Animation
     private lateinit var animHide: Animation
@@ -100,20 +98,27 @@ class Floor4Fragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onResume() {
+        resetVisibilityOfLayers()
+        updateMapOnScreen()
+        super.onResume()
+    }
+
     private fun initView() {
         mainLayout = root.findViewById(R.id.constraintlayout)
 
         map = root.findViewById(R.id.imageView)
         toilets = root.findViewById(R.id.toiletscheckbox)
-        stairs = root.findViewById(R.id.stairselevatorscheckbox)
         exits = root.findViewById(R.id.exitsentrancescheckbox)
-        rooms = root.findViewById(R.id.roomscheckbox)
         checkboxLayout = root.findViewById(R.id.checkboxlayout)
+    }
+
+    private fun resetVisibilityOfLayers() {
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f4Wc, true)
+        bitmapRepository.changeVisibilityByKeyword(MapKeyword.f4Exits, true)
 
         toilets.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f4Wc }!!.isVisible
-        stairs.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f4Stairs }!!.isVisible
         exits.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f4Exits }!!.isVisible
-        rooms.isChecked = bitmapRepository.getFloor()?.find { it.keyWord == MapKeyword.f4Rooms }!!.isVisible
     }
 
     private fun initAnimations() {
@@ -139,16 +144,8 @@ class Floor4Fragment : Fragment() {
             onCheckboxClicked(MapKeyword.f4Wc, isChecked)
         }
 
-        stairs.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f4Stairs, isChecked)
-        }
-
         exits.setOnCheckedChangeListener { _, isChecked->
             onCheckboxClicked(MapKeyword.f4Exits, isChecked)
-        }
-
-        rooms.setOnCheckedChangeListener { _, isChecked->
-            onCheckboxClicked(MapKeyword.f4Rooms, isChecked)
         }
     }
 
