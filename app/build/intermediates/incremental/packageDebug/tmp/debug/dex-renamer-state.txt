@@ -1,4 +1,4 @@
-#Fri Jun 05 14:08:42 CEST 2020
-base.0=C\:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Fri Jun 05 20:48:16 CEST 2020
+base.0=C\:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

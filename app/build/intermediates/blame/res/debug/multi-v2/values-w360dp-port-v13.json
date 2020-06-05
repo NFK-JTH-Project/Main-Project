@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+            "outputFile": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rasmu\\.gradle\\caches\\transforms-2\\files-2.1\\4906d6107e5216a2015fa3b944ff1f8b\\material-1.1.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\molun\\.gradle\\caches\\transforms-2\\files-2.1\\4906d6107e5216a2015fa3b944ff1f8b\\material-1.1.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

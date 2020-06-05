@@ -10,12 +10,6 @@
         android:targetSdkVersion="29" />
     <!-- Needed for retrieving API -->
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!--
-         REMOVE THIS LINE TO UNLOCK THE DEVICE
-         HOME AND BACK BUTTONS IS STILL OVERRIDE
-         IN MAIN
-    -->
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 
     <application

@@ -1,498 +1,1714 @@
 [
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_hitech.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\hitech.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor4_fragment.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor4_fragment.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_base.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_base.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2120.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2120.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_rooms.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_rooms.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2404.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2404.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_all_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_all_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2220.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2220.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2320.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2320.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_h_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_h_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1206.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1206.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_rooms.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_rooms.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1022.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1022.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2420.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2420.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313e.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313e.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3120a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3120a.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_e_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_e_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3211.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3211.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2311.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2311.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_rooms.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_rooms.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3411.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3411.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_base.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_base.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_complete_map.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_complete_map.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_complete_map.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_complete_map.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_stairs_elevators.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_stairs_elevators.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_show_checkboxes.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\anim\\anim_show_checkboxes.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_stairs_elevators.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_stairs_elevators.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_britain.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\britain.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4302.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4302.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3302.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3302.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_rooms.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_rooms.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_sidemenu.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_sidemenu.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1215.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1215.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_sidemenu.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_sidemenu.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_vending_machines.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_vending_machines.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_base.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_base.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_stairs_elevators.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_show_checkboxes.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\anim\\anim_show_checkboxes.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sweden.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\sweden.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2122.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2122.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_d_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_d_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3420.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3420.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1113a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1113a.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2222.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2222.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2422.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2422.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2211.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2211.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2322.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2322.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2111.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2111.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3113.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3113.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_stairs_elevators.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_stairs_elevators.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3213.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3213.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_you_are_here.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_you_are_here.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3413.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3413.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_sidemenu.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_b_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_b_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1213.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1213.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4404.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4404.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4304.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4304.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\menu_search_view.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\menu\\search_view.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3101b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3101b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jth_logo_compressed.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\jth_logo_compressed.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_sidemenu.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4427.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4427.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ju_area.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-v24\\ju_area.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2431.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2431.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3114b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3114b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_boarder.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\black_boarder.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_rooms.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_rooms.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_teacher_popup.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_teacher_popup.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4420.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4420.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4227.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4227.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2116b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2116b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_exits.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_exits.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_all_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_all_comp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_top.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_top.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\activity_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3129.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3129.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2408.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2408.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_vending_machines.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_vending_machines.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2224.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2224.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3422.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3422.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor2_fragment.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor2_fragment.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_rooms.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_rooms.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2424.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2424.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_vending_machines.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_vending_machines.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1211.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1211.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_top.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_top.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4418.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4418.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_exits.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_exits.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2415.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2415.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2215.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2215.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3215.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3215.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_arrow_back_black_24dp.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4434.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4434.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3415.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3415.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_j_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_j_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3131.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3131.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_britain.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\britain.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_stairs_elevators.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_image_available.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\no_image_available.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_email_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4129.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4129.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_top.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_top.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2230a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2230a.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4406.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4406.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_f_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_f_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3124.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3124.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_sidemenu.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_sidemenu.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor2_fragment.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\floor2_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313c.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_complete_map.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_complete_map.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3406b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3406b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2113.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2113.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2126.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2126.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sweden.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\sweden.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2326.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2326.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_g_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_g_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4213.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4213.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_sidemenu.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_sidemenu.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_top.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_top.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2313.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2313.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\activity_navigation.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor3_fragment.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor3_fragment.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4413.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4413.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor1_fragment.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\floor1_fragment.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1017.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1017.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3117.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3117.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3105c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3105c.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_base.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_base.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1217.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1217.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3317.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3317.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_local_phone_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_local_phone_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_entrances_exits.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_entrances_exits.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4210a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4210a.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_a4422b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\a4422b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search_black_24dp.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_local_phone_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_complete_map.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_complete_map.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_j_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_j_comp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_top.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_top.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_a_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_a_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3311b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3311b.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3225.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3225.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2230c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2230c.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_stairs_elevators.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_stairs_elevators.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4131.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4131.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3133.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3133.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4116.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4116.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_hide_checkboxes.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\anim\\anim_hide_checkboxes.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4416.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4416.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_g_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_g_comp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_wc.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_wc.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3433.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3433.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_wc.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_wc.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4224.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4224.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor3_fragment.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\floor3_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_top.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_top.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_complete_map.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_complete_map.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_wc.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_wc.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_wc.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_wc.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_teacher_popup.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\activity_teacher_popup.xml"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3134.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3134.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_c_comp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\src\\main\\res\\drawable\\highlight_c_comp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2418.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2418.png"
     },
     {
-        "merged": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
-        "source": "C:\\Users\\rasmu\\StudioProjects\\Main-Project-NEw\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_boarder.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\black_boarder.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_wc.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3418.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3418.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_top.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3434.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3434.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4415.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4415.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4315.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4315.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2225.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2225.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1419.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1419.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3431.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3431.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4325.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4325.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2228a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2228a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4414.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4414.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4314.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4314.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2417.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2417.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3316.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3316.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4222.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4222.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4121.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4121.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3114a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3114a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4132.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4132.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3226.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3226.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2230b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2230b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2432.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2432.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3311a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3311a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4117.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4117.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2317.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2317.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3123.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3123.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3223.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3223.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2109b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2109b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_exits.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4312.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4312.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1317.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1317.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_base.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3122.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3122.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3429.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3429.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1303.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1303.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_local_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4105.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4105.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1111.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1111.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jth_logo_compressed.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\jth_logo_compressed.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3105a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3105a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1318.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1318.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3121.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3121.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4211b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4211b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2302.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2302.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3315.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3315.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4119.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4119.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4106.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4106.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4428.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4428.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2315.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2315.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2406.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2406.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3212.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3212.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_a_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_a_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1112.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1112.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4211a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4211a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_wc.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4429.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4429.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2433.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2433.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2109a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2109a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_layer_base.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3224.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3224.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_h_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_h_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2303.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2303.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4118.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4118.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4326.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4326.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_local_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3432.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3432.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2213.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2213.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2228b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2228b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3120b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3120b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2123.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2123.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4223.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4223.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3417.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3417.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2110.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2110.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3404.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3404.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2212.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2212.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2112.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2112.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2312.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2312.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2323b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2323b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3105d.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3105d.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_top.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_top.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4210b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4210b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2105.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2105.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1314.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1314.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3303.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3303.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1405.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1405.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2205.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2205.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1105.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1105.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_wc.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1305.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1305.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2405.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2405.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2409a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2409a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2121.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2121.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_arrow_back_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2421.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2421.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313f.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313f.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2321.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2321.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_vending_machines.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_vending_machines.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3112.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3112.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1423.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1423.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2214.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2214.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2114.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2114.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3409a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3409a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_complete_map.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1316.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1316.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2314.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2314.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_d_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_d_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3205.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3205.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2414.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2414.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3105.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3105.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2308b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2308b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3439.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3439.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3110.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3110.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_b_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_b_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_sidemenu.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_sidemenu.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3210.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3210.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3310.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3310.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3410.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3410.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313d.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313d.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1310.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1310.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2423.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2423.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4219.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4219.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4419.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4419.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3214.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3214.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor1_fragment.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\floor1_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ju_area.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-v24\\ju_area.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4205.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4205.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2216.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2216.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_floor4_fragment.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\floor4_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3430.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3430.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2109c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2109c.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1418.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1418.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2430.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2430.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_you_are_here.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_you_are_here.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2126a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2126a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4128.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4128.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3221.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3221.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3421.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3421.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114c.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3406a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3406a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3428.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3428.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_base.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3312.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3312.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_f_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_f_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1212.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1212.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor4_complete_map.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor4_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4433.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4433.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_local_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2118.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2118.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\menu_search_view.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\menu\\search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4226.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4226.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3132.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3132.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_c_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_c_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_exits.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4130.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4130.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3201a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3201a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4426.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4426.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4123.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4123.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4225b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4225b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2210.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2210.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4323.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4323.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_local_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2223.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2223.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_image_available.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\no_image_available.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3406c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3406c.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2319.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2319.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_local_phone_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_local_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2127.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2127.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3301b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3301b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4316.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4316.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4216.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4216.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4124.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4124.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3218.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3218.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2427.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2427.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1029.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1029.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4408.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4408.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3301c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3301c.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor1_layer_entrances_exits.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor1_layer_entrances_exits.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4424.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4424.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1028.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1028.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3201c.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3201c.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ju_layout.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-v24\\ju_layout.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2218.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2218.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4215.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4215.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4115.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4115.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_complete_map.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_complete_map.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2428.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2428.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3309.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3309.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3125.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3125.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4125.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4125.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3231.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3231.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3201b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3201b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3308.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3308.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4114.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4114.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3219.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3219.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1219.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1219.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4214.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4214.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1119.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1119.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3216.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3216.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114f.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114f.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4322.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4322.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3116.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3116.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3408.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3408.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4407.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4407.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3230.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3230.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4232.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4232.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3426.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3426.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3301a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3301a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3130.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3130.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4217.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4217.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2217.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2217.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4317.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4317.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_rooms.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4127.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4127.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4319.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4319.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_highlight_e_comp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable\\highlight_e_comp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4320.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4320.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3313a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3313a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_wc.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_wc.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_base.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_base.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1118.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1118.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114d.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114d.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3229.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3229.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1311.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1311.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4411.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4411.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2116a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2116a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3115.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3115.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2115.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2115.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4228.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4228.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3437.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3437.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor2_layer_rooms.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor2_layer_rooms.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2309.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2309.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2308a.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2308a.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4112.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4112.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_floor3_layer_stairs_elevators.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\floor3_layer_stairs_elevators.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2409b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2409b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_hide_checkboxes.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\anim\\anim_hide_checkboxes.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3412.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3412.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3438.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3438.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1312.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1312.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4318.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4318.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4230.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4230.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2413.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2413.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3409b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3409b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e3217.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e3217.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1114e.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1114e.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2323.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2323.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e1113b.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e1113b.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e2310.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e2310.png"
+    },
+    {
+        "merged": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_e4410.png.flat",
+        "source": "C:\\Users\\molun\\AndroidStudioProjects\\Main-Project\\app\\src\\main\\res\\drawable-xxxhdpi\\e4410.png"
     }
 ]
