@@ -3,6 +3,7 @@
     package="com.example.nfk_project">
     <!-- Needed for retrieving API -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Remove this to unlock the device -->
     <uses-permission android:name="android.permission.REORDER_TASKS" />
 
     <application
