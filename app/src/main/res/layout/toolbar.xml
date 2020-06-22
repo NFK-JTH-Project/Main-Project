@@ -18,6 +18,16 @@
 
             />
 
+        <ImageButton
+            android:id="@+id/exit_app_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_outline_cancel_24"
+            android:visibility="gone"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+
+            />
+
         <TextView
             android:id="@+id/appName"
             android:layout_width="wrap_content"

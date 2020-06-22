@@ -1,6 +1,7 @@
 package com.example.nfk_project
 
 import android.app.ActivityManager
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
@@ -9,11 +10,13 @@ import android.graphics.Bitmap
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
+import android.text.InputType
 import android.transition.TransitionManager
 import android.util.DisplayMetrics
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.VISIBLE
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
@@ -30,6 +33,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import java.util.*
+import kotlin.system.exitProcess
 
 
 open class MainActivity : AppCompatActivity() {
@@ -54,6 +58,8 @@ open class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
+
+        toolbar.exit_app_button.visibility = VISIBLE
 
         //Contains all code for changing languages
         initBtns()
@@ -118,12 +124,22 @@ open class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
     }
-
 
     //disable backbutton so you can't leave the application
     override fun onBackPressed() {
+
+        //TODO: StartActivityForResult in order to enter admin-password to exit application.
+
+        val password = "Rabarber04"
+        var enteredPassword = ""
+
+        enteredPassword = "rabarber04"
+
+        if (enteredPassword == password) {
+            finishAffinity()
+            exitProcess(0)
+        }
     }
 
     fun closeKeyBoard(){
