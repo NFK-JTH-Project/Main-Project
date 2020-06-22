@@ -1,6 +1,8 @@
 package com.example.nfk_project
 
+import android.app.Activity
 import android.app.ActivityManager
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
@@ -9,11 +11,13 @@ import android.graphics.Bitmap
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
+import android.text.InputType
 import android.transition.TransitionManager
 import android.util.DisplayMetrics
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.VISIBLE
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
@@ -24,13 +28,17 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.nfk_project.Authenticate.AuthenticateAdminActivity
 import com.example.nfk_project.MapCreator.bitmapRepository
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import java.util.*
+import kotlin.system.exitProcess
 
+const val REQUEST_CODE_AUTHENTICATE_ADMIN = 1001
+const val ADMIN_PASSWORD = "Rabarber04"
 
 open class MainActivity : AppCompatActivity() {
     var api: API = API()
@@ -118,12 +126,27 @@ open class MainActivity : AppCompatActivity() {
                 }
             }
         }
-
     }
-
 
     //disable backbutton so you can't leave the application
     override fun onBackPressed() {
+
+        //TODO: StartActivityForResult in order to enter admin-password to exit application.
+
+        val intent = Intent(applicationContext, AuthenticateAdminActivity::class.java)
+
+        startActivityForResult(intent, REQUEST_CODE_AUTHENTICATE_ADMIN)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == REQUEST_CODE_AUTHENTICATE_ADMIN) {
+            if (resultCode == Activity.RESULT_OK) {
+                finishAffinity()
+                exitProcess(0)
+            }
+        }
     }
 
     fun closeKeyBoard(){
