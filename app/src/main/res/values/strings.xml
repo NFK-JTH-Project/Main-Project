@@ -37,5 +37,7 @@
     <string name="building_h">This room is in building H, School of Education and Communication</string>
     <string name="building_j">This room is in building J, Campus Arena</string>
     <string name="not_found">Not found</string>
+    <string name="hint_admin_password">Admin Password</string>
+    <string name="option_continue">Close application</string>
 
 </resources>

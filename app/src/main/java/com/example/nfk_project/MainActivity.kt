@@ -1,5 +1,6 @@
 package com.example.nfk_project
 
+import android.app.Activity
 import android.app.ActivityManager
 import android.app.AlertDialog
 import android.content.Context
@@ -27,6 +28,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.nfk_project.Authenticate.AuthenticateAdminActivity
 import com.example.nfk_project.MapCreator.bitmapRepository
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -35,6 +37,8 @@ import kotlinx.android.synthetic.main.toolbar.view.*
 import java.util.*
 import kotlin.system.exitProcess
 
+const val REQUEST_CODE_AUTHENTICATE_ADMIN = 1001
+const val ADMIN_PASSWORD = "Rabarber04"
 
 open class MainActivity : AppCompatActivity() {
     var api: API = API()
@@ -58,8 +62,6 @@ open class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
         toolbar.backBtn.visibility = View.GONE
-
-        toolbar.exit_app_button.visibility = VISIBLE
 
         //Contains all code for changing languages
         initBtns()
@@ -131,14 +133,19 @@ open class MainActivity : AppCompatActivity() {
 
         //TODO: StartActivityForResult in order to enter admin-password to exit application.
 
-        val password = "Rabarber04"
-        var enteredPassword = ""
+        val intent = Intent(applicationContext, AuthenticateAdminActivity::class.java)
 
-        enteredPassword = "rabarber04"
+        startActivityForResult(intent, REQUEST_CODE_AUTHENTICATE_ADMIN)
+    }
 
-        if (enteredPassword == password) {
-            finishAffinity()
-            exitProcess(0)
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == REQUEST_CODE_AUTHENTICATE_ADMIN) {
+            if (resultCode == Activity.RESULT_OK) {
+                finishAffinity()
+                exitProcess(0)
+            }
         }
     }
 
