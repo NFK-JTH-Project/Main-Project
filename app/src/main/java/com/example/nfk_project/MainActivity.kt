@@ -11,14 +11,13 @@ import android.graphics.Bitmap
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
-import android.text.InputType
 import android.transition.TransitionManager
 import android.util.DisplayMetrics
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
-import android.view.View.VISIBLE
 import android.view.WindowManager
+import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.annotation.RequiresApi
@@ -35,6 +34,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.android.synthetic.main.toolbar.view.*
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.system.exitProcess
 
 const val REQUEST_CODE_AUTHENTICATE_ADMIN = 1001
@@ -44,6 +44,7 @@ open class MainActivity : AppCompatActivity() {
     var api: API = API()
     val ENGLISH = "en"
     val SWEDISH = "sv"
+    var lev: Levenshtein = Levenshtein()
 
     @RequiresApi(Build.VERSION_CODES.O)
     var suggestions = api.fetchStaffFromApi()
@@ -108,22 +109,39 @@ open class MainActivity : AppCompatActivity() {
         search_bar.setAdapter(adapter)
 
 
+        // If the user hits searchbutton on keyboard
+
+        search_bar.setOnEditorActionListener { _, actionId, _ ->
+            if(actionId == EditorInfo.IME_ACTION_SEARCH){
+                println("Checking searched item")
+                var input = capitalizeEach(search_bar.text.toString())
+                var searchItem = lev.getBestMatch(ArrayList(api.list), input)
+                if(input !in api.list){
+                    handleBadSearch(input, searchItem)
+                } else handleSearch(searchItem)
+
+            }
+            true
+        }
 
         //On clicklistener that triggers when a suggestion is clicked, should take user to navigation activity
         search_bar.onItemClickListener = AdapterView.OnItemClickListener {
                 parent, view,position, id->
             val selectedItem = parent.getItemAtPosition(position).toString()
-
-            if(api.allRooms.containsKey(selectedItem)){
-                val intent = Intent(this, NavigationActivity::class.java)
-                intent.putExtra("room", api.allRooms[selectedItem])
-                startActivity(intent)
-            }else{
-                val teacher = api.allTeachers[selectedItem]
-                if (teacher != null) {
-                    closeKeyBoard()
-                    createPopup(teacher)
-                }
+            handleSearch(selectedItem)
+        }
+    }
+    
+    fun handleSearch(searchItem: String){
+        if (api.allRooms.containsKey(searchItem)){
+            val intent = Intent(this, NavigationActivity::class.java)
+            intent.putExtra("room", api.allRooms[searchItem])
+            startActivity(intent)
+        }else{
+            val teacher = api.allTeachers[searchItem]
+            if(teacher!=null){
+                closeKeyBoard()
+                createPopup(teacher)
             }
         }
     }
@@ -274,7 +292,6 @@ open class MainActivity : AppCompatActivity() {
         }
     }
 
-
     fun setLanguageBtn(){
         var currentLanguage = resources.configuration.locale.toString()
         println("locales: $currentLanguage")
@@ -298,7 +315,6 @@ open class MainActivity : AppCompatActivity() {
         }
     }
 
-
     private fun changeLanguage(language: String) {
         val myLocale = Locale(language)
         val res: Resources = resources
@@ -312,7 +328,36 @@ open class MainActivity : AppCompatActivity() {
         startActivity(refresh)
     }
 
+    fun capitalizeEach(s: String): String{
+        var result = ""
+        var words = s.split(" ").toMutableList()
+        for (word in words){
+            result += word.capitalize() + " "
+        }
+        result = result.trim(' ')
+        
+        return result
+    }
+
+    fun handleBadSearch(searched: String, bestMatch: String){
+        val alertWindow = AlertDialog.Builder(this)
+        var message = getString(R.string.bad_search, searched, bestMatch)
+        alertWindow.setMessage(message)
+        var result = false
+
+        alertWindow.setPositiveButton(R.string.yes) {dialog, which ->
+            println("Positive button pressed")
+            handleSearch(bestMatch)
+        }
+        alertWindow.setNegativeButton(R.string.no) {dialog, which ->
+            println("Negative button pressed")
+            search_bar.setText(" ")
+        }
+        alertWindow.show()
+    }
 }
+
+
 
 
 

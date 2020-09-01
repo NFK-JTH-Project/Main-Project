@@ -64,6 +64,7 @@ class API {
                 teachers.forEach {
                     list.add(it.Firstname + " " + it.Lastname)
                     searchItems[it.Firstname + " " + it.Lastname] = it.RoomName
+                    searchItems[it.Signature] = it.RoomName
                     allTeachers[it.Firstname + " " + it.Lastname] = it
                 }
             }

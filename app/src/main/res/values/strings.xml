@@ -39,5 +39,8 @@
     <string name="not_found">Not found</string>
     <string name="hint_admin_password">Admin Password</string>
     <string name="option_continue">Close application</string>
+    <string name="bad_search">No search results for %1$s? Did you mean %2$s?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 
 </resources>

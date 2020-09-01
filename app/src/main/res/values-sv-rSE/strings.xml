@@ -41,4 +41,8 @@
     <string name="not_found">Not found</string>
     <string name="hint_admin_password">Admin lösenord</string>
     <string name="option_continue">Stäng applikation</string>
+    <string name="bad_search">Inga sökresultat för %1$s? Menade du %2$s?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+
 </resources>
