@@ -158,7 +158,7 @@ open class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-
+        println("Testlog")
         if (requestCode == REQUEST_CODE_AUTHENTICATE_ADMIN) {
             if (resultCode == Activity.RESULT_OK) {
                 finishAffinity()
@@ -176,6 +176,7 @@ open class MainActivity : AppCompatActivity() {
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         if (Intent.ACTION_MAIN == intent.action) {
+            println("in onNewIntent")
         }
     }
     //Disable recent application button
@@ -346,11 +347,9 @@ open class MainActivity : AppCompatActivity() {
         var result = false
 
         alertWindow.setPositiveButton(R.string.yes) {dialog, which ->
-            println("Positive button pressed")
             handleSearch(bestMatch)
         }
         alertWindow.setNegativeButton(R.string.no) {dialog, which ->
-            println("Negative button pressed")
             search_bar.setText(" ")
         }
         alertWindow.show()
