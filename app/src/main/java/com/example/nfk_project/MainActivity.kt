@@ -133,6 +133,7 @@ open class MainActivity : AppCompatActivity() {
     }
     
     fun handleSearch(searchItem: String){
+        search_bar.setText("")
         if (api.allRooms.containsKey(searchItem)){
             val intent = Intent(this, NavigationActivity::class.java)
             intent.putExtra("room", api.allRooms[searchItem])
@@ -158,7 +159,6 @@ open class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        println("Testlog")
         if (requestCode == REQUEST_CODE_AUTHENTICATE_ADMIN) {
             if (resultCode == Activity.RESULT_OK) {
                 finishAffinity()
@@ -344,13 +344,12 @@ open class MainActivity : AppCompatActivity() {
         val alertWindow = AlertDialog.Builder(this)
         var message = getString(R.string.bad_search, searched, bestMatch)
         alertWindow.setMessage(message)
-        var result = false
 
         alertWindow.setPositiveButton(R.string.yes) {dialog, which ->
             handleSearch(bestMatch)
         }
         alertWindow.setNegativeButton(R.string.no) {dialog, which ->
-            search_bar.setText(" ")
+            search_bar.setText("")
         }
         alertWindow.show()
     }
