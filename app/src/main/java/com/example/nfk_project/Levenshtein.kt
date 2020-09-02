@@ -44,9 +44,6 @@ class Levenshtein (){
             distance = newDistance
             newDistance = temp
         }
-        if(distance[s1Len-1] < 4){
-            println("Comparing: " + s1 + " And: " + s2 + " returning a distance of: " + distance[s1Len-1])
-        }
         return distance[s1Len - 1]
     }
 

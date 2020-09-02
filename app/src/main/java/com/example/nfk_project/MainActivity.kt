@@ -113,7 +113,6 @@ open class MainActivity : AppCompatActivity() {
 
         search_bar.setOnEditorActionListener { _, actionId, _ ->
             if(actionId == EditorInfo.IME_ACTION_SEARCH){
-                println("Checking searched item")
                 var input = capitalizeEach(search_bar.text.toString())
                 var searchItem = lev.getBestMatch(ArrayList(api.list), input)
                 if(input !in api.list){
