@@ -349,7 +349,8 @@ open class MainActivity : AppCompatActivity() {
             handleSearch(bestMatch)
         }
         alertWindow.setNegativeButton(R.string.no) {dialog, which ->
-            search_bar.setText("")
+            // Do nothing or search_bar.setText("") ?
+            println("User pressed no, doing nothing")
         }
         alertWindow.show()
     }
